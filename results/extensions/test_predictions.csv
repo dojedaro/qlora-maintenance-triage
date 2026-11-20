@@ -1,0 +1,741 @@
+fault,gold,retrieval_5shot,retrieval_5shot_raw,qlora_seed43,qlora_seed43_raw,qlora_balanced,qlora_balanced_raw
+TC reported air-con fault. Unable to res Check #1553 all the a/c freon pressure and,Saloon Evaporator,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Train prep:2680 APS fault. Aircon 1 cause APS fault. Isolated,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC reported External Smoke Alarm at car1534. Staff(PSR) checked and feedback no sign of smoke or he at,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Pax feedback to staff (AMK) middle carsFront M2 and Rear M2 felt warm. SM(KTB) checked and feedbackcar is cooling and no fault,Recharge Freon,Door Roller,Door Roller,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+#2722-B1 wheel got minor thermal crack f,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+#3659 A4/B4 wheel flange Thickness fail,Wheel Profiling,<invalid>,Wheel Flange Height,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported Smoke External alarm at car1635. Staff(JUR) checked and confirmed no sign of smoke or f ire and no abnormalities. Rear T306 confirmed no abnormaliti es. TC reported Smoke External alarm at car 1635. Staff(JUR),External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+1551:AC 1-1 CCU wire isolated due to com,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC of counterbound T359 reported 'A' side headlight of T356 was faulty. TC of T356 stepped out at GC L1 and confirmed 'A' side headlight was not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Snap: 3638 B1 top ceiling water dripping CE: 3638 all ceiling n floor dry Depot to check,Saloon Evaporator,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+TC reported counterbound Train 118 (112/111) HLT not working. Staff (JUR) checked and confirmed Trai n 118 'B' side HLT not working,Headlight,Headlight,Headlight,ACU,ACU,Saloon CCU,Saloon CCU
+"TIMS showed obstacle detected in Front M1 car 'A4' train doors when all train doors were opened. SM( NEW) checked and confirmed all train doors were working norm ally, no abnormalities. Fault did not recur at subsequent st",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2612 A3 L/H/S DOOR ROLLER DAMAGE,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snap:2566 faulty light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train doors at car FM1 were not proven closed. TC opened and closedto clear fault,Clean J Rail,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+"TC reported TIMS showed Obstacle detected at Front DT- 3603 'A4' door when at MSP NB. Fault self cleared departing MRB NB. Staff (MRB)monitored for 3 stations and feedback no problem with Front DT-3603'A4' train doors. CE:3603 TIMS showed no obstacle detected, A4 door operation ok Depot 3603 A4 train door operational check",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"Snap:Door cannot open. MRT no: 3620, Doo",Door Roller,Cab Door Cable,Cab Door Cable,Door Roller,Door Roller,Clean J Rail,Clean J Rail
+3568 CE reported Bogie #2 emitting wheel flat noise,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+1560-Line breaker resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+To check 2524 got any residual brake pressure (OE),ACU,<invalid>,BCP,ACU,ACU,ACU,ACU
+Snap: 2568 Saloon warm NL,Saloon Evaporator,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+DT545: UNDERSHOOTOBSERVED CAR 3546AND MCARS AVERAGE BCP IS ABNORMAL(fluctuates),ACU,ACU,ACU,ACU,ACU,ACU,ACU
+3507 (T209) B/S wiper faulty. BLBS seal,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+3602 A-side headlight blown,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC feedback after changing end that oneof the saloon lights in car 3518 and 3517 was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train came to gradual stop with no faultindication. TC did a brake status check - fault cleared and able to proceed,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+CE:2501 & 3502 Bogie 1 noisy suspect whe,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"2547 Heavy air leak from brake frame, fo",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+PM train 3528 having stuck brake.To be r,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+T320 Cab door B side 3547 can’t open fro,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+Train doors at front DT car were not proven closed. TC recycled train doors a few times but to no av ail. Staff(BGB) assisted to push close and isolate the defec tive 'A2' doors at car front DT car in close position at JUR,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported train came to a gradual stopwith brake fault at front M2 car (2647). STBS operated for train to proceed to AMK MT to disembark. TC also reported un able to open train doors at AMK MT in RMF. Switched to ATPM,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TC reported TIMS displayed air-con faultpresent at front M2 car. Unable to,Saloon CCU,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TIMS showed Smoke External Alarm at car 1518. Staff(YCK) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Rear T262 line clear and confirmed no abnormalities. CE: 1518 smoke external,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+CE checked 1515 A2 saloon light not work,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported 'A' side headlight was not working while taking over,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+WILD Triggered-car 2502 at A3 wheel with,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"T230 EMU 3647 feedback counter bound T210 one of the headlight not illuminated. TC of T210 stepped o ut at YCK SB to check and confirm ""A"" side not illuminated",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Train doors at rear M1 car were not proven closed. TC opened and closed a few times to clear fault,Clean J Rail,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+2624 A/C 2-1 to monitor next 3Weekly for occurence any coolant fault,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+3644 B4 Saloon door NG. To check & recti,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Train 112 TC reported counter bound train 323 at DVR EB LHS head light not working. TC 323 checked a nd confirm. Train 112 TC reported counter bound train 323 atDVR EB LHS head light not working. TC 323 checked and confi,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC reported FDT suspected of flat wheel.TC reported FDT suspected of flat wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"TIMS showed BCU fault at car 1506 occurred intermittently. Fault self- cleared. Train performance - ok. CE: 1506 No Recurrence Of Intermittent BCU Fault Pls set date and time of TIMS, the year is 2003 which is wrong",ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported Front M1 car intermittent co Check and,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,ACU,ACU
+TC reported intermittent APS fault. Unable to,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"IMDC reported T 420 3656 A/C fault, FDT(",Saloon Evaporator,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+"3554 A9, 2554 B8 CE reported saloon light not working",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TIMS showed Smoke External Alarm at RearM2 car . Staff(ADM) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Re ar T232 line clear and confirmed no abnormalities. TIMS show,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported fire external at front DT car. T259 line clear no abnormality. Staff (MSP) no abnormalit y,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported intermittent BCU fault at Rear M1 car,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Snap:between car A4 and A3 saloon light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3559 WILD alarm triggered (LEVEL 1),Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Reported during DT check car 3545 A/S He,Headlight,ACU,ACU,Saloon CCU,Saloon CCU,Saloon Light,Saloon Light
+1532 bogie 1 wheel flat noise,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"1562 Brake release fault at 1614hrs. BCP at 0.49bar when train is at 64kph. Download ER to verify, (fault happened at 1549, 1614 and 1627hrs 19/01/2021)",ACU,BCU,BCU,ACU,ACU,ACU,ACU
+CE-3509 A1 saloon light not working. Sus,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 1542 Door B2 saloon light blown,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported that the cab door opened byitself as the train was departing and EB was applied. Closedcab door and,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+"CE: 3501,no 1 end Aircon condensation",Change Thermostat Setting,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+TC reported headlight fault. TC stepped. #3570-A/S headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Train encountered power fault at Front M1 while departing station. TC sttempted to do a,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+TIMS showed intermittent APS fault at car 2636 TC aux on a few times to no avail. Train performance - ok. TIMS showed intermittent APS fault at car 2636 TC aux on a few times to no avail. Train performance - ok,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+1509 A/C condensation,Change Thermostat Setting,ACU,ACU,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+Snaprep:3609- train there is no air conditioner inside.Is hot and humid no air flow.Temp.30.9*C. CE monitor: T225(3609) n (1609) both car cooling mode unable to cut in. Temp 30.8c n 30.9c respectively.Further check 609/610 tims showed ac temp warm,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+"TC feedback after changing end that oneof the saloon lights in car 3552, near A3 door was not worki ng",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Pax feedback to staff (BNL) burning smell and smoke emitting from train. Staff (JKN) and TC checked and confirmed -burning smell with smoke at car 2629. ERS-13,BCU,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector
+1674- TO REPLACE NO. 2 END SMOKE DETECTO,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+CE: 2517 B7 saloon light dim,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3719 A-side headlight not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TIMS showed intermittent APS fault at car 2502. Train performance - ok. TIMS showed intermittent APSfault at car 2502. Train performance - ok,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+EB was applied while departing station with DIR and DMI illuminated and TIMS showed Front M1 car 'B2 ' train doors status lost,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported 'B' side headlight was faulty,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+"2621 B3, A3 wheel flange height fail 21 B3, A3 wheel flange height fail",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+A side cab door unable to open from driving cab,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+Reported 3520 intermittent BCU fault,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+T124 3615(W) 'B3' train doors at Rear M2,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2681 Snap rep reported wheel noisy near Door A1/B1 underframe,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported TIMS showed BCU fault at front DT car. Fault code 322. TC feedback train performance nor mal,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+#3551 Brake light not lit during status,BCU,ACU,ACU,Headlight,Headlight,ACU,ACU
+CE checked 1511 B2 & 1512 A11 saloon lig,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported front DT A2 door not provenclosed. Opened and closed few times to no avail. Staff(TAM) checked and push closed the train door at TAMWB and SIMWB fo r train to depart,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3522 TIMS showed Fire / Smoke Internal at rear m2(2521) car . Staff(AMK) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Train was escorted to terminal station. T223(3522) RM2 car 2521 check n,Clean Internal Smoke Detector,<invalid>,BCD,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+"During PM cx, #2625",MPV,<invalid>,BCD,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+"PM,#3620 #1620WHEEL FLANGE HEIGHT FAILED",Wheel Profiling,<invalid>,Wheel Flange Height Failed,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+3556-HAVING BCU FAULT DURING DT CHECK.TO,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"TC reported Rear DT ""A"" side headlight faulty",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+3636 A side Cab Door,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+"DT Check, 3647 a/C 2-2, 1648 - A/C 1-1",Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+TC reported stuck brake at rear DT car when entering SBW1 in ATMP(scheduled ATPM driving). Fault sel f-cleared. TC continued ATPM to HW,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+3515 SnapRep reported Door A1 light not working,Saloon Light,<invalid>,Door Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3614 A3 DOOR WOBBLING DURING OPERATION,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3558-Stuck brake when shunting into pit,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+"3556 Wheel B1, A2, B3, A3, B4 having She 56 Wheel B1, A2, B3, A3, B4 having Shelled Thread/Thermal crackfollow up wheel profile",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+PM report 2557 A4 very bad pitting. Wait,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Train encountered BCU fault at Rear M2 car. Train was proceeding very slowly. TC performed brake sta tus check and fault subsequently self clear. Train was able to proceed in AM mode. TC also reported fault was intermitte,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TIMS showed APS fault at FDT(3519). Train performance - ok. CE checked:3519 Intrmittent APS fault- saloon warm,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Train doors at rear M2 car B3 door werenot proven closed. TC recycled train doors once - ok. Staff( SBW) checked and confirmed,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail
+1532 A1/B1 Wheel flange height failed -D,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+3655 A1 saloon door wobble. To rectify,Door Roller,<invalid>,Saloon Door,Door Roller,Door Roller,Door Roller,Door Roller
+TC feedback that 'A' side headlight wasnot working. Staff (JUR) checked and confirmed that 'A' sideheadlight was not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+'A' side headlight not working. Fault was reported by the counterbound T412 (3724).TC stepped out at CCK2 checked and confirmed fault,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC reported cab air-con was blowing warmair. Unable to,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Train Prep: 2603 A2 door open halfway,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC feedback unable to open 'A' side cabdoor from inside. SM(DBG) also confirmed unable to open cab door from outside,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+"DT533/534 UNDERSHOOT 533/534 UNDERSHOOT @ 1224HRS 12/12/2020 ROM RS LOGS, OBSERVED ABNORMAL BCP AT 2533. A",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TC reported train came to a gradual stopfor a few seconds in AM after departing YIS2 before proceed ed at normal speed.d at AMK as advised by MOC(RS),ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TIMS showed Smoke External Alarm at car3534. Staff(AMK) checked and confirmed no signs of smoke ext erior of train. Rear T421 line clear and confirmed no abnorm alities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+3609 - B3 Door faulty. To check & rectif,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"3642 a/c 1-2, 2-1, 3641 a/c 1-1. Having",Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+1555-APS FAULT DURING TRAIN PREP,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+CE: 2540 bogie 2 wheelflat noise,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Train doors were not proven closed. TC opened and closed train doors twiceto no avail and confirme d 'A2' door at FDT car was not proven closed.Staff (YWT) a ssisted to push close the door for train to depart. Fault re,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported car 2683 air-con fault. Unable to,Saloon CCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Pax feedback to staff(YCK) train door #7open and close few times. Staff(TAP) checked - all train do ors operation is normal,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC feedback TIMS showed intermittent BCUfault at Front M1 boogie 1 and 2,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Snap: 1526 Saloon no aircon,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Train encountered power fault at Front M1 while departing station. Unable to,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+2659 AC 2-1 Coolant pressure fault (T438,Recharge Freon,<invalid>,BCD,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TIMS showed Smoke Internal at 2521 car . Staff(AMK) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Train was escorted to terminal station. CE: 2521 internal smoke 1 alarm,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+CE reported 2540 A6 saloon light dimmed,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TIMS showed BCU fault at the Rear M1 car. Fault only occurred for 1 station. Fault self cleared. Tra in performance - ok,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"TIMS indicated car 3644 'B4' door obstacle detected when train doors opened. Thereafter, train doors were not proven closed. TC opened and closed train doors once - ok. CE: (3643) RDT car 3644 earlier train at CBR, B4 did not open due to obstacle detected. When train arrived at AMK's middle platform B4 door able to open. Train proceeding back to bsd depot, unable to monitor further",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Reported 3561 A side cab door unable to,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+TIMS showed car 1541 set #2 air-con inverter failure. Staff(WDL) checked and confirmed car 2541 set #1 air-con faulty,Recharge Freon,ACU,ACU,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator
+SnapRep reported 3506 saloon light dim,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+CE reported 2542 Both A/con not working,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"snaprep: 3527 near A1 door, light not working CE : 3527 A4 saloon light not working",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported one of the saloon light in car 3507 (A5) was not working. ERS-11,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported smoke external alarm at FM1car . T207 line clear feedback no abnormalities on the track . Staff JUR check and feedback no abnormalities . TC reporte d smoke external alarm at FM1 car . T207 line clear feedback,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+IMDC - 3541: TC reported TIMS shows WSS at axle 2. Track is dry BBT NB,BCU,Wiper,Wiper,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+TC reported wheel flat on front DT car.TC reported wheel flat on front DT car,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Snap: 3501 Light not working CE: 3501 B11 Saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"Pax feedback to staff (OTP) air-con leaking. Staff (LVR) checked and confirmed, condensation. No cle aning needed",Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+Counterbound T312 TC reported T325 'A' side headlight was not working. TC confirmed no headlight fau lt. TC stepped out at CLE checked and confirmed that 'A' sid e headlight was not working. Counterbound T312 TC reported T,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+#2618 EXTERNAL SMOKE DETECTOR FAULTY. TO,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+1508 Bogie 1 and 2,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported intermittent converter Trainfault.Staff (CTH & ORC) checked but unable to findconve rter fault,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+T410 3674 TC reported air-con fault at R,Recharge Freon,<invalid>,BCD,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Train experience intermittent wheel slipslide,BCU,BCU,BCU,BCU,BCU,BCU,BCU
+CE reported 3672 cab light suspect blown,Saloon Light,Cab Door Cable,Cab Door Cable,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+CE reported 2529 saloon not cooling temp,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+#3617 train prep report Both headlight n #3617-A/S headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+#1677 Smoke external,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+DT505/506:UNDERSHOOT QUEST RS DO CHECK BRAKE SYSTEM ON ALL CAR,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Train doors at FDT car were not proven closed. TC recycled train doors thrice - ok,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+TIMS showed BCU fault at car rear M2 momentarily. Fault self clear. Train performance - ok,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+1637 A/C 1-2 COMP & COOLANT FAULT,Saloon Evaporator,Recharge Freon,Recharge Freon,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+Train doors at FM1 car were not proven closed. TC recycled train doors once - ok. Fault did not recu r at subsequent stations. ERS-10,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Train doors at car 3608 A2 door were notproven closed. TC recycled train doors once to no avail. St aff (BGB) pushed close the train doors for train to depart.Fault did not recur at subsequent stations,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"Reported 1609 A/C condensation, to repla",Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+Suspected flat wheel at car 3509. Faultwas reported by TC,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported air-con fault at Front M1 Set #2. Unable to,Recharge Freon,BCU,BCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+2532 A/C 1 CONDENSATION.CHECK AND RECTIF,Aircon Filter,<invalid>,Air Con Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+TC reported 1 saloon light in car 2515 near B1 door was faulty. TC reported 1 saloon light in car 25 15 near B1 door was faulty,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"PM,#1605,CHARGING RESISTOR 1 PC BURNT,TO",Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+2508- A/C 1-1 TO CHECK EVAPORATOR UNIT,Saloon CCU,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator
+TC feedback TIMS showed BCU fault at Rear M1 car. Fault self cleared. Train performance - ok,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported two of the saloon lights incar 3518 were not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3656 A1 Train doors not proven closed at BSH2 and BDL2. TC opened and closed twice - ok. Staff (CTH) checked and feedback no abnormalities observed. Train doors opened and closed as per normal,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported after changing end that there was one saloon light was not working at FDT car near B1 tr ain doors,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC feedback TIMS showed air-con fault atrear M2 car (2509). Staff(YIS) checked and confirmed rear M 2 car (2509) set #2 air-con faulty.oling,Recharge Freon,<invalid>,BCD,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+2538 IMDC: RSM reported air-con warm. TC feedback that there is no air con fault. Staff (SBW) confirmed no fault,Saloon CCU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TIMS showed Smoke Internal at car 3555.Staff(TNM) checked and confirmed no signs of smoke and burni ng smell on interior of train. Train was escorted to termina l station,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TIMS showed Smoke Internal Alarm at car1521. Staff(YCK) checked and confirmed no signs of smoke / f ire / burning smell on exterior or interior of train. Train was escorted to terminal station,Clean Internal Smoke Detector,<invalid>,Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+3554 BCP 2.66 Bar at Coasting speed of 5,ACU,<invalid>,BCP,ACU,ACU,ACU,ACU
+"PM, #2720,CHARGING RESISTOR BURN,TO REPL",Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+"3568 Wheel reprofiling, Wild triggered",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Train doors at car 3630 were not provenclosed. TC recycled train doors once - ok. Staff(GCL) checke d and confirmed no train doors abnormalities. Fault did not recur at subsequent stations. Train doors at car 3630 were n,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3526 (T222) B/S wiper rubber came off. CE : 3526 Checked wiper rubber slight torn n able to function,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+"2549 Staff reported A3 door, 2 lights not working",Saloon Light,Door Roller,Door Roller,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train doors at car 3623 were not provenclosed. TC opened and closed once to clear fault,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+1644 B3 door wobble during open/closing,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"Air con condensation on car 2663, DBG staff to get cleaner to mop. Air con condensation on car 2663,DBG staff to get cleaner to mop",Aircon Filter,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+"CE: 3567 A6, 3568 B2, 3564 B8-saloon l",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Intermittent stuck brake at FM1 car whentrain braking,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TC reported Front DT A2 door did not open SM MRB confirmed train door did not open a MRB SB. SM MRB isolated Front Dt A2 door at MSP SB. Staff(RFP) help to past ed sticker,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"3645 rep reported, CE confirm 3645",Change Thermostat Setting,Aircon Filter,Aircon Filter,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Snap: reported car 3640 ceiling leak due,Aircon Filter,External Smoke Detector,External Smoke Detector,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+3657 LFF no.2 2657 LFF no.6,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+Train doors at car 2610 were not provenclosed. TC recycled train doors twice but to know avail. Sta ff(BGB) checked and confirmed car 2610 A4 no obstructions bu t unable to close. TC was authorised to operate DIRBS to pro ERS-10,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Counterbound train T319 reported T111 'A' side headlight was not working. TC stepped out and confirm ed 'A' side headlight was not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC reported Internal Smoke Pre-Alarm 2 in 1704 car. Staff (CBR) checked and feedback no sign of smok e,Clean Internal Smoke Detector,<invalid>,Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+"Counterbound T408 TC reported T419 'A' side headlight was not working. TC confirmed no headlight fau lt present however, TC stepped out at YIS SB checked and con firmed that 'A' side headlight was not working",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+#3504 Air dryer keep purging cause MR sl,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+3635 No 1 bogie Bad Wheel Flat,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported smoke external at Front DT car. Rear T409 line clear no sign of smoke. Staff(AMK) checke d no sign of smoke at Front DT car,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+#3720 Fire External,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+"Pax reported to Staff (ORC) ,one pair oftrain doors were making noise at car 1517. SM(MRB) checked and confirmed no abnormalities",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+CE checked car 3544 A2 saloon light dimm,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"#3676 - A/S wiper dislodged, To rectify",Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+TC reported of smoke external present atfront DT car. SM (PNR) checked and confirmed there were no signs of smoke at the exterior of the train. Rear trains T30 6 and T305 checked for signs of smoke on the trackside and d,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+3525 reported B6 saloon light faulty,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported APS train and local fault intermittently. Staff (YIS) checked and confirmed no converterfault,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"Train prep, 2527 BCU suspension fault",BCU,BCU,BCU,ACU,ACU,ACU,ACU
+#1621 NO'3 LFF and 1622 NO'4 LFF faulty,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+Snap: 3569 A/C not cold,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+1523 DT check having brake fault.(BCU he,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+To check #2707 AC2 for icing/leak due to waterfall into saloon,Saloon Evaporator,ACU,ACU,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+TC reported converter train fault. Faultself-cleared. Fault repeated while departing BBT2,Saloon CCU,BCU,BCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"2505 CE reported B4 saloon light ""dim""",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"Counterbound train T435 reported T444 HLT not working. TC T444 stepped out and confirmed ""B"" HLT notworking",Headlight,Headlight,Headlight,ACU,ACU,Saloon CCU,Saloon CCU
+TC change end and reported train encountered BCU BCP fault at Rear M2 car. TC feedback train perform ance was ok. TC change end and reported train encountered BC U BCP fault at Rear M2 car. TC feedback train performance wa,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported intermittent APS fault,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Snap: 1562 Severe wheel vibrations CE: T220-1562 Both Bogie Bad wheelflat,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Pax feedback to staff (YCK) rear M1 car'B4' train door close with cranking sound.Staff(YIS) chec ked and feedback no abnormalities,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported TIMS showed BCU fault at front M1 car and brake demand exceeded. TC reported train came to a stop at track circuit E567. Fault self cleared and trai n proceeded in Auto,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+3611 B2 & B3 door roller faulty,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep:1517 at B3 saloon light not work,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"Snap: 3606. There is a faulty saloon door at B4. Pls check, CE never board",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"Train doors at car 1612, A1 door were not proven closed. TC opened and closed a few times but fault persisted. Staff (KRJ) assisted to push closed",Door Roller,Clean J Rail,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported headlight fault. TC steppedout at MRB checked and confirmed that 'A' side headlight wasnot working. TC reported headlight fault. TC stepped out at MRB checked and confirmed that 'A' side headlight was not w,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC feedback Front cab and Front DT car air-con leaking/condensation. Staff (RFP) checked and feedbac k air-con condensation at Front DT car,Aircon Filter,<invalid>,Air Con Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+Pax feedback to staff(SIM) a few nos. ofsaloon lights at car 3533 not working.Staff (TNM) checkedand confirmed multiple of saloon light at car 3533 were not working.Staff took photos and sent to duty CC,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported Rear M2 car momentary brakefault. Fault self-cleared,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Train doors at rear DT car 'B3' door notproven closed. TC opened and close train doors once - ok. T rain doors at rear DT car 'B2' door not proven closed. TC op ened and close train doors once - ok,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snap: 2530 A/C warm CE: 2530 B/S warm @ 30°C,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+Snap: 1509 Train vey hot,Recharge Freon,Aircon Filter,Aircon Filter,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+Train 207 counter bound train reported train 223 only with 1 headlight. TC stepped out and confirmedB-side headlight not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+2522 TC reported A/C 1-2 coolant pressur,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+snaprep : 3628 saloon warm CE : 3628 both AC running but Warm. Temp 26.2*C.With Coolant Pressure 1 and Comp.unit 1-1 fault,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported Front M2 car one saloon light faulty,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC feedback after changing end that oneof the saloon lights in Front M2 car was not working. TC fee dback after changing end that one of the saloon lights in Fr ont M2 car was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported Panel B APS fault illuminated. Fault self cleared when departed from BBT2,Saloon CCU,<invalid>,BCD,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"DT,#3644 B1 door,wabbled while opening,T",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported TIMS showed Smoke External Alarm recurred after CE,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported driving cab 3628 heavy condensation from cab air-con,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+Snaprep: 3563 2 saloon lights not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 3556 Saloon aircon warm CE: 3556 AC warm suspect freon low,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+3534 - Pax Feedback To Staff(CLE)Rear DT Car A/c Is Leaking. Staff(CNG)Checked & Confirmed A/c Near B4 Door Slightly Condense. (3533 - No.1 End Ceiling Heavy Condensation With Water Dripping) To Check & Rectify,Change Thermostat Setting,<invalid>,Air Con Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+#3546 Air dryer keep purging while Air c,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+1610 B2 door roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Stock changeover of train as requested by IMDC(RS) due to air-con warm in car 1544,Saloon CCU,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported after changing end that x01saloon light at the Rear DT car and x01 saloon light at the Rear M2 car were not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 2557 Saloon stuffy,Recharge Freon,External Smoke Detector,External Smoke Detector,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+TC reported intermittent APS fault at front M2 car. TC Aux on at SOM SB - ok. Train performance - ok . Fault recurred intermittently after departing DBG SB.in taken out of service at JUR. Replacement train from UPD,Saloon CCU,BCU,BCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+3720 A/C 1-1 DT check having coolant fault,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported car 2603 A1 train doors intermittent indication. Staff (SOM) confirmed train doors was s low in opening,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported Intermittent APS fault from Panel B. No car indication. Unable to,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"Passenger feedback to staff (SOM) RDT car 3516 saloon light faulty. Staff(MRB) checked, saloon lights near ""A1"" and ""B1"" train doors blown. CE reported: 3516 a9 n b3 saloon light not working",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"Pax feedback car 3611, 'A4' door jerky when closing. Staff(BBT) checked and confirmed door closing j erky and not smooth. Staff also mentioned 'B4' door also sho wing similar issues. No other abnormalities",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep : 2565 Bogie noisy CE :2565 bogie1 moderate wheel flat noise,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Real Time feedback: In car 1540 B1 dooris noisy when closing and opening. Staff (SIM) checked and c onfirmed from the outside of car 1540 B1 door on the LHS is loose,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"TC reported TIMS shows Rear DT car, B2 door operation time out with an OPE status. Staff(BGB) onboar d the train. Checked and confirmed RDT B2 door cannot open",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"2606 train door fault - ADM SB: doors not proven closed. (L3) TC tried few attempts to recycle doors but to no avail. Staff(ADM) pushed closed ""A2"" train doors for train to depart. L3 2606 A2 door FC 043 (A2 close operation time-out). Removed LHS door &",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported TIMS showed obstacle detected at car '2616' 'B4' door at NOV NB. Fault recurred at subse quent stations. Staff(AMK) checked and confirmed car 2616 'B 4' door opened and closed normally. TC reported TIMS showed,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+#2508 No-3 LFF not working,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+Train doors at car 2627 B4 door were notproven closed due to bag stuck. TC recycled train doors onc e - ok. Fault did not recur at subsequent stations. Train do ors at car 2627 B4 door were not proven closed due to bag st,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snap: 2549 Saloon light not working #2549-B6 saloon light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train encountered power fault at car 3525 while departing RFP SB,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+2647 A/C 1-1 & 3647 A/C 2-2 reported fault,Recharge Freon,Recharge Freon,Recharge Freon,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+1542 DT reported BCU fault,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported fire internal alarm at RearM1 car. Staff(AMK) checked and feedback no heat or smoke obs erved in train,External Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+"Customer relations received pax feedback, Rear M1 car was warm. TC reported no aircon fault, TIMS di splayed saloon temperature was 27C at Rear M1 car. MSL staffchecked and informed, no aircon fault",Recharge Freon,Saloon Evaporator,Saloon Evaporator,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported headlight fault. TC steppedout at DBG checked and confirmed that 'A' side headlight wasnot working. TC reported headlight fault. TC stepped out at DBG checked and confirmed that 'A' side headlight was not w,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+T214 3628 NB TC reported the rubber for,Wiper,<invalid>,Wheel,Air Dryer,Air Dryer,Wheel Profiling,Wheel Profiling
+2609 B3 WILD trigger.Check and rectify,Wheel Profiling,<invalid>,Wild Trigger,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+#3640 B side headlight blow to c/o,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+"A1,A2,A3,A4,B1,B2,B3,B4 ST/TC",Wheel Profiling,Wheel Profiling,Wheel Profiling,ACU,ACU,ACU,ACU
+Reported 1512 fire external indication,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported TIMS showed obstacle detected at Rear M1 car 'B4' Door when train doors opened at statio n platform. Fault clears when train departing and only appea rs when train doors opened at station. Staff (SOM) checked t,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported TIMS showed front DT car BCUfault. Fault self cleared after departing station,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"TC reported train doors at Front M2 'A4'not proven closed, recycle once - ok. Staff (Nov) checked a nd confirmed no abnormality. TC reported train doors at Fron t M2 'A4' not proven closed, recycle once - ok. Staff (Nov)",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"3681 A/SIDE WIPER RUBBER TORN, TO REPLACE",Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+1601/2601-MPV(Mean Pressure Valve) Havin,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+2618 TIMS show both A/C fault,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+#2724 CHre-1 terminal burn,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+Pax feedback to staff (ORC) front M1 carwas very warm. Staff (DBG) checked and confirmed no air-con fault,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+#1529 Near B2 door underframe air leak f,MPV,ACU,ACU,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+TC feedback smoke external at front M1 car. Staff (BNV) checked and confirmed no abnormalities. RearT308 line clear - ok,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TIMS showed Smoke External Alarm at Front M2 car. Staff(BGB) checked and confirmed no signs of smoke/ fire / burning smell on exterior or interior of train. Re ar T424 line clear and confirmed no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TIMS showed Smoke Internal at car 1527.Staff(TPG) checked and confirmed no signs of smoke / fire / burning smell interior of train. Train was escorted to termi nal station,Clean Internal Smoke Detector,<invalid>,Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TC feedback that loud sound was heard atfront DT A1 door when train doors opening. Staff (NEW) chec ked and confirmed A1 door spring out opening,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep feedback:Water leaking at Car 16,Change Thermostat Setting,Saloon Evaporator,Saloon Evaporator,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+#2527 WHEEL A4 - BAD TC. TO CHECK AND RE,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported doors at RM1 car were not proven closed. TC recycled doors once - ok,Clean J Rail,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+3518 1x saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TIMS showed BCU (intermittent) fault atcar 3659. MR 9.3 bar. Train performance - ok,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+Pax feedback to staff (BGB) Front DT A2train doors did not opened.Staff (YWT) confirmed train doo rs able to open and close but have sound and slightly shaky.Isolated train doors at WDL2,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported that TIMS showed air dryer fault. MR pressure was 10 bars,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+CE: 1539 B5 saloon & 3540 A7 saloon ligh,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+SnapRep: 2668 water leaking from A/C ven,Change Thermostat Setting,ACU,ACU,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+WILD triggered: 2518 A1/62.To profile,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+2654 BCU control pressure fault (Train Prep),ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Pax feedback to station staff (SBW) thatthe Front DT car train doors vibrate when closing and openi ng of train doors. Staff (WDL) checked and feedback no abnor malities on train doors,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2560 CE checked B3 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC feedback after changing end that oneof the saloon lights in Rear DT car near 'B3' door was not w orking. TC feedback after changing end that one of the saloo n lights in Rear DT car near 'B3' door was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported brake fault with no DMI indication. Train come to a stop in Auto mode when approaching B GB NB. TC proceed ATPM to BGB NB. Fault self-cleared. Train able to proceed in Auto mode when departing BGB NB,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+1538 SNap rep reported No a/con. Not: 2310067 raise for #1538 a/c 2-2 Name,Saloon CCU,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported FM1 car A4 door obstacle detected. Staff(ORC) checked and confirmed no abnormalities fou nd,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+EB applied in AM while departing from station,Door Roller,ACU,ACU,ACU,ACU,ACU,ACU
+"TC reported irregularities opening traindoor at car rear M2 ""B2"" door. Staff NEW checked and feedba ck car rear M2 ""B2"" door did not open at NEW SB, NOV SB and TAP SB",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Fire internal alarm. Staff(AMK) checkedand feedback no smoke or heat in rear M1 car,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TIMS showed BCU intermittent fault at front M2 car. Since AMK2. Train performance - ok,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+3561 Staff reported near b3 door 1 saloon light faulty,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported flat wheel Front DT car,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Counterbound T340 reported T343 one headlight not working. T343 TC stepped out and confirmed 'A' sid e Headlight not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC reported APS Fault at the front M1 car. Unable to clear,Saloon CCU,BCU,BCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Pax feedback to staff(YWT) that one of the train doors did not opened at car 1615. Staff(MSL) confir med and isolated the defective 'A3' doors at car 1615 in clo sed position at WDL SB. Pax feedback to staff(YWT) that one,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Pax feedback to Staff(YIS) water was leaking in car 1672. Staff(SBW) checked and confirmed there waswater constantly dripping from the air-con panel above. Vid eo was sent to CLS duty phone. Pax feedback to Staff(YIS) wa ERS-13,Saloon Evaporator,<invalid>,Air Con Filter,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter
+TIMS showed obstacle detected at FDT car'A1' doors. TC opened and closed train doors to clear fault . Staff (BBT) checked and confirmed no abnormalities,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Train doors at car 3623 were not provenclosed. TC recycled train doors once - ok. Staff(JUR) checke d and confirmed no train doors abnormalities. Fault did not recur at subsequent stations. Train doors at car 3623 were n,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+PIC at JURMT reported 3643 'A' side headlight not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+"Train doors at Front M2 car 'A2' were not proven closed. TC recycled train doors a few times but to no avail. Staff(TAP) assisted to push close 'A2' doors at Fr ont M2 for train to depart. At BSH NB, affected train door f",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3679 A side head-light not working (DT check),Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Train doors at car 3543 were not provenclosed. TC recycled train doors twice - ok. Fault did not re cur at subsequent stations,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported intermittent brake fault atcar Rear M2. Fault self cleared,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+SNAPREP : 3502 Slip/Trip fall hazard on,Aircon Filter,Door Roller,Door Roller,ACU,ACU,ACU,ACU
+TC reported obstacle detected at Rear DTcar B3 door. Staff(SBW) checked and confirmed train door di d not open at Rear DT car B3 door,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3709 A/S wiper PM reported worn Please r,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+Intermittent APS fault at Front M2 car,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"Train encountered power fault at Front M2 car 2533 while arriving station. Fault was unable to resetat SBW1,ADM1 and WDL1. Performance was normal",Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+TC reported rear DT car 'B1' door was not proven closed. TC opened and closed a few times to clear f ault,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported Smoke Internal Alarm at Front M1 car. Staff (CTH) checked and feedback no signs of smoke/ fire / burning smell on exterior or interior of train,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TC report TIMS showed internal smoke alarm at front DT car. Staff (TAM) check and feedback no heat a nd no smoke,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+Counterbound T212 reported that one of the headlights of the train is not working. TC stepped out atAMK NB and confirmed that the 'B' side headlight is not wor king,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+#2529 - A/C #1-1 Coolant Fault me(Requestor): SARAVANAN/RSWTNC/BSD te of Occurence: 03/06/2022 st Service Date: NIL U/Equipment/Location: 2529 A/C #1-1 uipment Serial No.(if any): NIL scription of fault/cause: COOLANT FAULT asurement (if any): NIL ult,Saloon Evaporator,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+WILD triggered,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC encountered power fault at front M1 car while arriving at station,Charging Resistor,BCU,BCU,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+"3546 BCP ABNORMAL om event logs observed, 3546 BCP ABNORMAL at 1723hrs and 1805hrs",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+Car 1545 & 2545 having BCU Fault. To rep,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Passenger feedback to staff (CLE) of aircon leakage at rear DT car. Staff (CNG) checked and confirme d of aircon condensate at rear DT car near 'B1' door leaking,Aircon Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+#2654 Ac2-2 compressor fault to rectify,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC reported TIMS showed Smoke External Alarm at RM2 car. TC change end at JKN SD and feedback no sig n of smoke or heat. TC reported TIMS showed Smoke External A larm at RM2 car. TC change end at JKN SD and feedback no sig,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+emu1563 check and,Recharge Freon,Saloon CCU,Saloon CCU,ACU,ACU,Saloon Light,Saloon Light
+TC reported Rear DT car 'B4' door not proven closed. TC recycled 4 times - ok. Fault did not recur n ext station,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+snaprep: 1666 - Warm Aircon,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC of counter boundT432 reported 'A' side headlight not working. TC stepped out confirmed 'A' sideheadlight not working. TC of counter boundT432 reported ' A' side headlight not working. TC stepped out confirmed 'A',Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+1509 Snap rep reported A4 Saloon light dimmed CE confirm,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+#1713 One of CHre terminal flash over fo,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+TIMS showed Smoke External Alarm at car1518. Staff(AMK) checked and confirmed no signs of smoke / f ire / burning smell on exterior of train. Rear T409 line cle ar and confirmed no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC feedback Front DT A4 door not provenclosed. TC open and close a few times but to no avail. Staff (KAL) isolated train door in closed position to clear fault,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"Train doors not proven closed at Rear M1, open and close once to clear fault",Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported the line flow fan for the air-con was stuck at Front DT car A3 door,LFF,LFF,Line Flow Fan (LFF),LFF,LFF,LFF,LFF
+"snaprep : 2529 saloon warm. CE: 2529 ac1-2, 2-1 coolant pressure fault unresettable. temp 28.5*C",Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Train encountered BCU fault at Rear M2 car. Train gradually came to a stop at track circuit W554. ST BS operated to proceed to next station. Disembarked pax at R DH2,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+1521 (T417) DC UPD reported 1 light faulty. CE : 1521 Check n,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported TIMS showed obstacle detected at car 3636 'A4' door intermittently. Staff(BDL) checked a nd confirmed car 3636 'A4' did not opened fully. Staff(BDL) isolate the defective pair of train doors car 3636 'A4' door,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2505 External smoke detector is trigged,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TIMS showed Smoke External Alarm at Front DT car . Staff(BSH) checked and confirmed no signs of smok e / fire / burning smell on exterior or interior of train. R ear T409 line clear and confirmed no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+WLID Triggered:Car 1567 @A4 wheel having,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+SnapRep: T435 car 2541 near A1 door undercarriage had abnormal knocking sound. Staff(BGB) checked an d confirmed knocking sound coming from undercarriage at car 2542 near A1 door,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Door Roller,Door Roller
+3533 B1 saloon door Roller worn . During,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+#1540 BCU Release Fault - BCP at 2.94bar. To rectify (Train Prep),ACU,BCU,BCU,ACU,ACU,ACU,ACU
+RM2 B1 door 1 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train doors at Front M1 car A3 doors were not proven closed. TC recycled train doors once - ok. Staf f(ORC) checked and confirmed no train doors abnormalities. F ault did not recur at subsequent stations. Train doors at Fr,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"CE 3518 A11,A8 saloon light faulty",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported 2 nos saloon light on car 1517 & a saloon light on car 3518 were not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train stopped with stuck brake indication at car 3675 after departing KTB1. STBS operated. Pax disem barked at YIS,BCU,ACU,ACU,ACU,ACU,ACU,ACU
+CE reported car 1546 A1saloon light not,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported train doors at rear M1 car not proven closed. TC opened and closed train doors to no ava il. SM (KTB) assisted to push B2 door for train to depart,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Rear DT car 'B1' train doors not provenclosed. TC opened and closed train doors 3 times - ok. Staff(TAP) monitored the opening and closing of the affected doo r and feedback no abnormalities,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snap: Aircon for car 2614 on the NS line,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+633/634 Wheel flange height fail on all,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"TC reported TIMS indicated Front DT car A1 door, was unable to open. Staff (NOV) checked and confirm ed Front DT car A1 door was unable to open and initally unab le to isolate. Staff(ORC) assisted to isolate Front DT A1 do",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+snaprep: CE reported 2533 B2 door slightly noise during opening and Closing,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported Obstacle Detector alarm at car 1649 near B3 train doors. Fault subsequently self-cleared,Clean J Rail,External Smoke Detector,External Smoke Detector,Door Roller,Door Roller,Door Roller,Door Roller
+Snap:3622 Saloon warm. CE: 3622 Both AC Running but Warm. Temp 26.7 * C.With Coolant Pressure 1 and Comp.unit 1-1 Fault,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported train door 'A3' at car 3615did not opened. Staff (JKN) checked and confirmed car 3615 ' A3' door did not opened. Staff(JKN) and (PNR) unable to isol ate the defective train door in closed position. Train was e,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2635 Heavy Air leak,ACU,ACU,ACU,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+TC reported intermittent BCU fault at Rear M2 car. Fault self cleared,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC feedback after changing end that oneof the saloon light in car 2566 was not working. TC feedbackafter changing end that one of the saloon light in car 2566 was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"#2516 3 bar at coast, to rectify",ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported that train doors in front M2car 'A4' doors were slow in closing. SM(BNL) checked and co nfirmed that the 'A4' doors in front M2 car were slow in clo sing. SM(JKN) assisted to isolate the defective pair of trai,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3681 DT checked reported APS fault,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+3535 to replace B side wiper blade secur,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+"1507, 3507 & all 508 To carry out MPV C/O for: Performed MPV C/Out as mentioned above & checked for leak - OK. MPV S/N: 3508",MPV,MPV,MPV,MPV,MPV,MPV,MPV
+3551 : Line Flow Fan noisy. To check & r,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+TIMS showed smoke external at car 2668.Staff (TLK) checked no sign of heat or smoke on exterior or interior of train. Rear train T306 feedback no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Counterbound T203 TC reported T226 'B' side headlight was not working. TC confirmed headlight fault.TC stepped out at CBR checked and confirmed that 'B' side h eadlight was not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+3658 & 2568- A/C FAULT DURING TRAIN PREP,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+CE feedback 2715 LFF 1 very slight noisy,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+"Counter bound TC T413 reported T410 oneheadlight not working. T410 TC stepped out to check ""a"" sideheadlight not working. Tripped MLCB to no avail",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+IMDC : 2502 B1 & 2501 A4 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TIMS showed rear DT air dryer fault. MR9bar. Train performance - ok,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+TC reported air-con fault. Unable to res #1531 a/c 2-2 fault code 615 multiple time. Check U/V/W ok.Further check,Saloon CCU,Recharge Freon,Recharge Freon,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+SNAPREP 1569 Blown lighting near seat in,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"Snaprep: 1522 near A4 door, Saloon light",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+To change-out MPV(fleetwide) at the follwing location: 3506 1505,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+3664 A/C 2-1 CMOCR1 fault. To check & rectify,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Pax feedback to staff (MSL) that car 1658 was warm. TC confirmed no fault. Staff (YWT) checked and c onfirmed that car 1658 #1 air-con faulty,Recharge Freon,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Reported 1652 TIMS showed external smoke,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TIMS showed car 3624 'B4' train doors fault intermittently. TC opened and closed train doors once toclear fault. Fault did not recur at subsequent stations,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+1535 Having BCU fault and brake pressure at coast 0.60Bar,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+#1539 during module 6MC05,Charging Resistor,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Pax feedback rear M1 car B2 door wobbledwhen open and close. Staff(LVR) checked and confirmed wobbl y. Pax feedback rear M1 car B2 door wobbled when open and cl ose. Staff(LVR) checked and confirmed wobbly,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported obstacle detected at Front M1 car 'A1' door since BBT SB. Staff(CCK) checked and confirm ed no abnormalities. TC reported obstacle detected at Front M1 car 'A1' door since BBT SB. Staff(CCK) checked and confir,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Intermittent APS fault unable to,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC reported smoke external at front DT car. Staff(RFP) checked and confirmed no abnormality at frontDT car. Rear train(316) line cleared all normal,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Train doors were not proven closed at front M2 car. TC opened and closed train doors once to clear f ault. Fault did not recur at subsequent stations,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+TIMS showed Front M1 car 'A4' train doors open operation timeout. Staff (RFP) checked and confirmed Front M1 car 'A4' train doors did not opened. Staff assistedto isolate defective train doors,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+To carry out FW MPV changeout on follow,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+#2604 B3 Door unable to open suspect Rol,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TIMS showed Smoke External Alarm at car1565. Staff(KTB) checked and confirmed no signs of smoke on exterior or interior of train. Rear T217 line clear and conf irmed no abnormalities. TIMS showed Smoke External Alarm at,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported saloon light was not workingat front DT car B3 door,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+1627-APS FAULT OCCURS WNEN AC2 CUT-IN.(AC2 ISOLATED),Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Train encounter BCU fault at Front M1 car when train was braking. Fault self cleared. when train dep arted,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+"TIMS showed 'A3' train doors at the front DT car were not proven closed. TC opened and closed train doors and HHPSDs once - ok. Staff (KTB) checked and confirme d that front DT car, 'A3' door was slow in closing and assis",Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+3603 - Reported Mean Valve Air Leaking,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+1540 A1 DOOR ROLLER PITTED AT BOTH RHS & LHS,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Train unable to depart due to DIR failedto extinguish. TC recycle train doors a few times to no ava il. Staff(RDH) checked and confirmedall train doors are pr oven closed. TC were authorized to operate ADBS but to no av,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Train came to a stop while departing station with TIMS showing BCU fault. Fault self-cleared and tra in proceeded in AM to next station,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported cab door lever was not working. TC opened cab door via push button,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+"TC reported rear DT ""A2"" door not provenclosed. TC recycle twice for train doors proven closed",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported TIMS showed BCU fault at front M1 car. Fault intermittent,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported flat wheel at Front DT car,Wheel Profiling,<invalid>,Wheel,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"Pax feedback to staff (CCK) Rear DT carB2 train doors was rattling when opening. Staff (ADM) checke d and confirmed Rear DT car B2 door was slow in closing, how ever there was no abnormalities. Pax feedback to staff (CCK)",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+CE: 3529 B4 & 3530 B10 saloon lights not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Counterbound T207 TC reported T416 sideheadlight was not working. TC stepped out at YCK checked andconfirmed that 'B' side headlight was not working. Counterb ound T207 TC reported T416 side headlight was not working. T,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC reported intermittent converter faultat front M2 car,Saloon CCU,BCU,BCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC reported TIMS showed intermittent obstacle detected at car 3663 front DT'A4' door. Staff(DBG) che cked and confirmed car 3663'A4' door not opened fullyand s ubsequently open fully TC reported TIMS showed intermittent,Door Roller,BCU,BCU,Door Roller,Door Roller,Door Roller,Door Roller
+Snap: 3564 #1 Bogie Bad Wheel Flat,Wheel Profiling,<invalid>,Bogie 1 wheel flat,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Counterbound TC of T427(3647) reported that the 'A' side headlight of T223 was not working. TC of T2 23 confirmed no fault indications. TC stepped out at YWT NB to check and confirmed 'A' side headlight was not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+1638 and 2638 all wheels flange height o,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"Snap: Train 2608, there╞s a strange soun",LFF,Wheel Profiling,Wheel Profiling,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+"TC reported car 3674 1st pair saloon door did not open. Staff(BDL) checked, confirmed no abnormaliti es. Staff(CBR) checked, no abnormalities. TC reported car 36 74 1st pair saloon door did not open. Staff(BDL) checked, co",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+HOTBOX/HOT WHEEL Triggered 3569 Bearing Temperature,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+(SNAPREP) CE reported 2658 A/C 2-1 Fault,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+Snap: 1510 Light is faulty,Saloon Light,Headlight,Headlight,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3683-B side wiper blade damage,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+TIMS showedSmoke Internal at car 1562.Staff(RFP) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Train was e scorted to terminal station. TIMS showedSmoke Internal at,Clean Internal Smoke Detector,Saloon CCU,Saloon CCU,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+#3519 A/C-2 Unable to cut-in To check an,Saloon Evaporator,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+Snap rep reported car 1503 Door B1 saloo,Saloon Light,<invalid>,BCD,Door Roller,Door Roller,Saloon Light,Saloon Light
+TC reported APS fault at car 1675. Fault self cleared when train entered SBW2,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"Train doors at car 3635, A3, were not proven closed. TC opened and closed a few times to clear fault",Clean J Rail,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+3540 Air Dryer purging non stop intermittently,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+CE reported 1606 both AC Running but wit,Saloon CCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+"TC reported smoke external at Front M1 (1570) car. SM(AMK) checked, no sign of smoke or fire at Front M1 car. Rear T417 line clear into BSH NB ,no abnormalities. CE: 1570 smoke external alarm",External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Counterbound TC reported T210 headlight not working. T210 confirmed 3530 'B' side not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+1644 #5 LFF lourve not turning during PM,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+TC reported Rear M1 car brake fault whentrain approaching MSP Siding B. Fault self-clear,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"TC reported smoke external Rear M1. SM(TAP) and SM(NOV) checked and confirmed no sign of smoke or fi re. T439 and T255 line clear into BDL SB, report no abnormal ities. All ok",External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported one pair of saloon lights not working at Front DT car near B3 doors. TC reported one pai r of saloon lights not working at Front DT car near B3 doors,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train doors at Front M1 car were not proven closed. TC recycled train doors once - ok. Staff(AMK) fe edback that Front M1 'A4' door was abnormal when closing at AMK SB. Staff(TAP) boarded and confirmed door was vibrating,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TIMS showed Smoke External Alarm at FM1car 1515. Staff(AMK) checked and confirmed no signs of smoke/ fire / burning smell on exterior or interior of train. Re ar T255 line clear and confirmed no abnormalities. TIMS show,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported train doors at car 2631 didnot opened. Staff(BBT) checked and confirmed car 2631 'B4' d oor did not opened. Staff(JUR) reported door delayed in open ing and manage to close in auto. TC reported train doors at,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+SNAPREP: 3671 No 1 end ceiling condensat,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter
+TC reported headlight fault. TC steppedout at YWT checked and confirmed that 'B' side headlight wasnot working. TC reported headlight fault. TC stepped out at YWT checked and confirmed that 'B' side headlight was not w,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+"DT557: TAP2 UNDERSHOOT 1043hrs, 1323hrs,Analyse RS logs observed car 3558 Average of Brake Cylinder Pressure abnormal comparred to other cars Please check Brake system.Thank you",BCU,<invalid>,BCP,ACU,ACU,ACU,ACU
+Snap rep:Train 3567 Door A1 saloon ligh,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+1627 Wheel flange height fail for Both b 27 Wheel flange height fail for Both bogie Axle,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Train came to a gradual stop in AM modedeparting station platform. TC feedback Master fault was lighted up with TIMS showing BCU fault at the rear M1 car. TC a ttempted to proceed in ATPM mode but to no avail. STBS was o,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+2607 - APS FAULT (DT CHECK),Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+1667 MPV air leak during CM work,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+1536 External smoke detector faulty foun,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+"EB tripped in AM mode after departing station due to intermittent door open Front M2 car B3 door. Re set EB - ok. Staff(TAP) checked, no abnormalities. Staff(CTH ) checked, no abnormalities",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2551 Reported having APS fault. (Train Prep),Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+"529/530 Dt reported the following saloon lights are not working. 3530 B3, 1529 B10, 2529 B10. Please replace according",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 2624 A/C Leak,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Change Thermostat Setting,Change Thermostat Setting
+"CE:1515 A2, 1516 B9 saloon light each not working",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+#1685 BCU FAULT.TO CHECK AND RECTIFY,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+EB applied due to Rear M2 car BCU fault.TC,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported Internal Smoke Pre-Alarm 2 at rear DT car. Staff(TAP) checked and feedback no sign of sm oke,External Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TC reported BCU suspension fault at front M1 car,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+Pax feedback to customer relation Rear M1 car was warm. TC confirmed air-con fault at Rear M1 car. S taff(KTB) checked Rear M1 car set #1 and #2 air-con fault. U nable to,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+"Real time feedback : ""EMU 3544 one headlight down external PTI showing 000"". TC stepped out and feed back : left hand side of headlight not illuminated",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+3644 B2 doors not proven closed,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TIMS showed Smoke External at car 3554.Staff(AMK) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Rear Train 2 21 feedback no signs of smoke on track. TIMS showed Smoke Ex,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+CE reported 3684 A/C 1 condensation at c #3684-A/C condensation at ceiling ok.Clean up ok.To be monitor further at M/L.No a/c fault.Set temperature at 25degC from 22.5degC,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+3656 TC reported TIMS showed Front DT(36,Door Roller,BCU,BCU,Saloon CCU,Saloon CCU,ACU,ACU
+"Counterbound T210 Reported T233 'A' sideheadlight not working. TC (T233) check and confirmed ""A"" si de headlight not working",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+snaprep: 1525 A5 saloon light not working(CE confirmed),Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"561//562 UndershootReported undershoot. Check logs, brake blending observed",ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Staff(YIS) feedback air-con fault at rear M2 car set #2,Recharge Freon,BCU,BCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+3645 Snaprep. feedback #1E ceiling having condensation,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter
+2549 Aircon 2-1 Coolant Pressure Fault,Recharge Freon,<invalid>,Air Con Filter,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported when changing end 3 of the saloon light not working at car 2551,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train Prep: 2539 Brake fault,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+Off duty TC reported rear M1 car B4 doorfailed to open at AMK SB. Staff TAP checked and feedback no abnormality,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported Smoke Internal Alarm at Front M1 car. Staff (KAL) checked the train and feedback no sign s of heat nor smoke. Train was escorted to terminal station,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+Intermittent BCU fault at rear M1 car,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported that cab air-con was not working. unable to,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+3529 smoke external rerported during tc training. To rectify,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+"PM,#3517,B/SIDE HEAD LIGHT BLOW,TO REPLA",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+1640-REPORTED INTERMITTENT APS FAULT DURING TRAIN PREP.TO RECTIFY,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+DSS report 3530 A/S cab door unable to o,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+During train prep TC report 1557 Brake F,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+555/556 1556 Wild trigger on A1-71 A2-89,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+2511 Mean Pressure Valve leaking badly,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+A-side cab door unable to open from inside and outside. TC entered thru' saloon car. A-side cab doorunable to open from inside and outside. TC entered thru' sa loon car. ERS-10,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+1655 MULTIPLE A/C FAULT DURING TRAIN PREP,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+#1556 Smoke external faulty,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+CE reported car 2570 A7 saloon faulty.Pl,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+DT525/526:UNDERSHOOTEvent record analysis show BCP abnormalities on both cab. Please follow up,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+"TC feedback after changing end that oneof the saloon lights in cars 3509, 1509 and 2510 was not wor king. Train schedule withdrawal to UPD via JURA at 2312Hrs. TC feedback after changing end that one of the saloon lights",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3544-WIRELESS TIMS SHOW AIR DRYER FAULT,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+#2615 B1 door slow in closing To cherck,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Train undershoot platform in Auto mode.Proceeded in ATPM mode to the headwall. TC reported intermit tent brake fault at front M1 car,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"1568 BCP at 2.44 bar at Coasting, FC308 BCU fault to download ER at 0544hrs and followup. Request by OE",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+"TC reported air-con fault #2 set Rear M2car. Staff(BSH) checked, air-con fault #2 set Rear M2 car",Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+T 438 3665 TC feedback after changing en,Saloon CCU,Recharge Freon,Recharge Freon,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+1531 A/C 2-1 and 2531 A/C 1-2 having coolant fault during DT check,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+2567 - BCU FAULT (TRAIN PREP). TO RECTIF,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported smoke external alarm at car1507. Rear T204 conduct a line clear and confirmed no heat a nd smoke. Staff(KTB) checked and confirmed no heat and smokeon exterior and interior of train,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Train doors at car Rear M1 car were notproven closed. TC recycled train doors once - ok. Fault did not recur at subsequent stations,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+(Level 3) (NSEWL) T422(3539) Train Doors,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2553 Having BCU Fault. To check and rectify,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported one of the saloon lights incar 3532 was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+#3504 and #1504 brake fault. To check an,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Train departed UPD TB2 with front M1 brake fault. TC feedback train slow pick up. TC updated fault s elf cleared approaching JURMT. Train will be withdrawn back to UPD,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Train door at the rear DT car not provenclosed. Opened and closed a few time to no avail. Staff(BGS ) feedback rear DT car A1 door did not open. TC tired to rec ycled train door one more time for train to depart,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"DURING PM,#3522 NO.2 END SMOKE DETECTOR HEAD LOOSE,TO RECTIFY",External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TIMS showed Internal smoke alarm. Staff(BDK) checked and confirmed no sign of heat and smoke. No abn ormalities,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+"3538 WILD triggered, B2 - 68",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+709/710 wheel flange height fail,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported TIMS showed obstacle detected at car 3666 'A2' door. Staff(KTB) checked and confirmed ca r 3666 'A2' door did not open at KTB NB. Staff(KTB) confirme d that car 3666 'A2' door has been isolated in closed,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2501 Pitting,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported wheel flat at the Front DT car,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported fire external at car 3512. Staff(RFP) checked no abnormalities. Rear T340 line clear fee dback no sign of smoke. TC reported fire external at car 351 2. Staff(RFP) checked no abnormalities. Rear T340 line clear,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Original TC feedback to step in TC that Rear DT(3629) B2 door obstacle detected indication lit. Staff (DBG) confirmed no abnormality. CE checked 3629 B2 door Isolated and Sticker Pasted,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+#3668 Air dryer fault To rectify Refer notif.2558079,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+3533 Snap rep. reported Water condensation on the ceiling 1st cabin. CE confirm .23.5*C,Aircon Filter,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+TC reported one of the saloon light in Front M1 car near B1 door was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train doors at car 1515 A1 door were notproven closed. TC recycled train doors a few times but to n o avail. Staff(NEW) assisted to push close'A1' door at car1515 in close position - ok,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+To Replace door Roller below location,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Tims showed smoke internal alarm. checked tims fault code (720) fire smoke internal alarm. self cleared. conducted sensor cleaning. swapped fire cintrol panel from #3527 to #1527. security and function checked ok,Clean Internal Smoke Detector,<invalid>,Smoke Internal Alarm,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+"3610- B1 R/H/S DOOR,B2 R/H/S & L/H/S DOO",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep: 2509 B4 light down CE: 2509 B11 saloon light dim,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TIMS showed Smoke External Alarm at car1515. Staff(AMK) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Rear T 205 line clear and confirmed no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC reported TIMS showed obstacle detected at the Rear M1 car B3 door. SM(SIM) checked and,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep: 2612 saloon door closed and opened,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"T410-2539 B7 Saloon light """"Pinkish "" No",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Wheel flat at front DT car. Fault was reported by TC. ERS-13,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Snaprep: 2538 saloon light fault,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+#3509 Air-comp Safety valve keep purging,Air Dryer,<invalid>,Air Comp Safety Valve,Air Dryer,Air Dryer,MPV,MPV
+CE reported car 3557 a/c.1-1 and a/c.2-1,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Train doors not proven closed at Front DT car A3 door. TC opened and closed once to clear fault. Sta ff(CLE) checked and confirmedthat Front DT car A3 door hada 5cm gap. Staff(CLE) assist to push closed the train door ERS-10,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+#3534 B/S Cab door unable to open(Train,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+TC reported Front DT car 'A1' train doordid not opened at SOM NB with obstacle detected. Fault did not recur at the next station. Staff(ORC) checked and confir med no abnormalities. TC reported Front DT car 'A1' train do,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+'A' side headlight not working. TC stepped out at ALJ1 checked and confirmed fault.Fault was repor ted by counter bound T312,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Pax feedback to staff(TAP) unusual soundheard from uppercarriage. Staff(AMK) checked and confirmed no abnormalities,Saloon CCU,Wheel Profiling,Wheel Profiling,Saloon CCU,Saloon CCU,Wheel Profiling,Wheel Profiling
+Snap:Train cabin 2541╞s aircon appears t,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TIMS show BCU release fault at car 3536.TC reported intermittent brake fault. Performance -ok. TIMS show BCU release fault at car 3536. TC reported intermitten t brake fault. Performance -ok,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"#1509 no.6,LFF not working,To rectify",LFF,LFF,LFF,LFF,LFF,LFF,LFF
+Staff reported car 1609 B3 door got weir,Door Roller,Door Roller,Door Roller,Air Dryer,Air Dryer,Aircon Filter,Aircon Filter
+"TIMS showed ""BCU WSP timed out #2 activated"" at car 2676. Fault occurred since the train at BSH SB",BCU,BCU,BCU,ACU,ACU,ACU,ACU
+Cab air- con not working. TC feedback driving cab was very warm,Change Thermostat Setting,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC feedback after changing end that onesaloon light at car 1510 and one at car 3509 not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported APS fault indicator intermittently lighted up. TIMS showed line voltage lighted up rando mly for all 6 cars. Train performance - ok,Saloon CCU,BCU,BCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC feedback after changing end that one of the saloon lights in 3562 car was not working. CE: 3562-B5 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+WHEEL DEFECT.26/03/3031.TEAM J(D).3WC1,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported TIMS showed Obstacle Detected at car 1615 when train doors opened. Alarm self-cleared af ter train doors closed. Fault did not recur at subsequent st ations. TC reported TIMS showed Obstacle Detected at car 161,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"DT CX,#523/524 AIR LEAK TEST FAILED,1.2B",ACU,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+TC reported TIMS showed both External and Internal Smoke Detectors were isolated in car 3502,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+SnapRep: 3708 water condensation made th,Change Thermostat Setting,Saloon Evaporator,Saloon Evaporator,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+3534 B side cab door unable to open,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+"3512 a/c 1-1, 2-1 , 1512 a/c 1-2 Coolant",Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+CE:Feedback saloon light not working as,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TIMS showed Smoke Internal at Rear DT car. Staff(YIS) checked and confirmed no signs of smoke / fire/ burning smell on exterior or interior of train. Train was escorted to terminal station,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TC feedback after changing end that oneof the saloon lights in car 1536 near 'A3' door was not work ing,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"TC reported ""A"" side cab door is jammed,unable to open from inside",Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+"snaprep: Reported 2534 saloon aircon warm CE : A/c 2-2 coolant pressure fault, temp 26.1",Recharge Freon,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+3641 - BCU UNIT UNHEALTHY,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+Front DT car 'A4' train doors were not proven closed. TC opened and closed a few times to clear faul t. Staff (BGB) checked and confirmed no abnormalities at BGB 1. Station staff also reported fault recurred at BBT1 and JU,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+CE reported car 2521 A3 and 1521 B11 saloon light faulty.Please check and rectify,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported intermittent rattling soundheard from his driving cab at the Right Hand Side of the tra in. ERS-13,Wheel Profiling,Wheel Profiling,Wheel Profiling,ACU,ACU,Wheel Profiling,Wheel Profiling
+"TIMS showed Smoke Internal alarm at Front M1 car. Staff (KAL) checked and feedback no sign of heat a nd smoke. Train reformed to withdraw at PSR, return to CHD. Rear T334 was used. TIMS showed Smoke Internal at FM1 car. S",Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TOCR spotted one of the headlight is notworking. Request TC to step out at MSP to check and confirm ed that 'B' side headlight was not working,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Snap:3628 Door slow opening,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+523/524 BCP fail DT check,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+Train EB was applied while departing TPG. TC feedbacked B1 door at car 1617 opened and closed moment arily,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"TC reported TIMS indicated Front M1 carsmoke external fault. Staff (YCK) checked and confirmed - noheat nor smoke spotted. T260 line cleared from BSH1 to AMK1 and T259 line cleared from AMK1 to YCK1, no heat nor smoke",External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Train undershoot 2.5 metres in AM. ECB was subsequently activated at rear M2 car. ECCBS was operatedfor train to proceed in ATPM to CSP. Staff(SOM) assisted an d,ACU,Door Roller,Door Roller,ACU,ACU,ACU,ACU
+Reported 1704 power fault NLO3,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+Snaprep: 1565 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+2532 MPV air leaking,MPV,MPV,MPV,MPV,MPV,MPV,MPV
+TC reported 'A' side cab door unable toopened from the inside. TC reported 'A' side cab door unableto opened from the inside,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+3542-AC 1-1 COMPRESSOR FAULT DURING TRAI,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC feedback after changing end that oneof the saloon lights at car 3549 B2 door was not working. TCfeedback after changing end that one of the saloon lights a t car 3549 B2 door was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 2524 A1 Saloon light spoit,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 1665 Water dripping in train,Aircon Filter,<invalid>,Air Con Filter,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+TC feedback after changing end that oneof the saloon lights at Front DT car A4 doors was not workin g,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"3514 Hotbox triggered A1,70 Bearing temperature",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+3546 A side wiper dislodged,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+Intermittent air-con fault at the FrontDT car. Unable to,Saloon CCU,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+"SA (SBW) feedback to SM (SBW) door 18 was not fully close when at station. Staff (YIS) checked and c onfirmed, door was able to fully close however door was emit ting jerking noise when closing. Train was reformed with T40",Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep: 1675 A/C condensation on ceiling. CE feedback 1675 a/c condensation on #2 end ceiling panel,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+"3569-B1,B2,B4, A1,A2, A4-Wheel condition",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"3644 B2 door closed too fast, 3644 Obsta",Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Pax feedback to station staff(YIS) RearM1 car train doors did not opened. Staff (SBW) checked and c onfirmed no abnormalities with train doors. Doors opened andclosed as per normal,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"1641 - BCU FAULT (FC:301,307&308) DURING TRAIN PREP",BCU,BCU,BCU,ACU,ACU,ACU,ACU
+1504-AC1-1 HAVING COMPRESOR FAULT DURING,Saloon Evaporator,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Found water ingress at #2654 External sm,External Smoke Detector,External Smoke Detector,External Smoke Detector,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter
+Counterbound T116 TC reported T316'B'side headlight was not working. TC confirmed headlight fault . TC stepped out at COM WB checked and confirmed that 'B' si de headlight was not working. ERS-11,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TIMS showed Smoke External Alarm at car1553. Staff(YCK) checked and confirmed no signs of smoke / f ire / burning smell on exterior or interior of train. Rear T 207 line clear and confirmed no abnormalities. TIMS showed S,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Train prep:3711 B side cab door unable t,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable
+CE reported 2532 No.1E & 1531 No.2E ceil,Change Thermostat Setting,Aircon Filter,Aircon Filter,Saloon CCU,Saloon CCU,Change Thermostat Setting,Change Thermostat Setting
+#2601 No.6 LFF faulty to rectify,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+Train stopped with stuck brake indication at car 3641 before CCK SB. STBS operated. Pax disembarked at CCK,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+DT521/522 Undershoot 521/522 Undershoot due to brake blending. 0718hrs. 0744hrs,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TC feedback after changing end that front M2 car #1 air-con faulty. Unable to,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+3508 Air Dryer Fault. To check & rectify,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+#2569 A/C 2-1 Evaporator Choke,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator
+Snap: 3555 Saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"TC reported A/C fault at Front M2 car. Staff(BDK) checked, confirmed that Front M2 car #2 set air-co n faulty",Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+EMU 515/516 #1515 A/C 1-2 Condenser fan,Saloon CCU,ACU,ACU,LFF,LFF,Recharge Freon,Recharge Freon
+SnapRep 3616 A3 unable to open,Door Roller,Cab Door Cable,Cab Door Cable,Cab Door Cable,Cab Door Cable,Door Roller,Door Roller
+"TC feedback ""A"" side wiper rubber dislodged",Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+snaprep: 2618 A/C condensation on ceilin,Change Thermostat Setting,<invalid>,Air Conifer,Aircon Filter,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting
+"tc reported 3561 smoke external, to rect FL3",External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+"PM,#2513(1) #2514(1)charging resister",Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+Snap: 1547 Water leaking CE: 1547 no 2 end water leaking,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+"TC reported Smoke external Front DT car.Staff(AMK) checked, no sign of smoke or fire at Front DT ca r. No abnormalities. Rear T224 line clear, no abnormalities.TC reported Smoke external Front DT car. Staff(AMK) checked",External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+"Pax feedback to staff(SBW) one of the saloon lights in car 1509 was not working. Staff(WDL) checked and confirmed one of the saloon lights in car 1509 was not working.""",Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+T416 3671 (N) TC reported A side wiper d,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper,Wiper
+Master fault lit with fire external fault. Staff(AMK) checked and confirmed no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Train doors at rear MT were not proven closed. TC recycle once to clear fault,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+TC reported smoked external at Front M1car. Staff (YCK) checked and confirmed no signs of smoked. T 409 line clear confirmed no smoke. TC reported smoked extern al at Front M1 car. Staff (YCK) checked and confirmed no sig ERS-13,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+1539 SnapRep reported near A4 door saloon light dim,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC feedback that TIMS showed car 3606 'A4' door not opened. Staff(CBR) checked and confirmed door half open. Staff(AMK) isolated door in closed position. Depot to check 3606 train doors operation,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"3622 B1,A1,B3,A3,A4-Wheel flange height 22 B1,A1,B3,A3,A4-Wheel flange height fail",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC feedback brake on train indicator light was flickering and emitting a clicking noise,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported smoke external at rear M2 car. Staff(QUE) checked and confirmed no signs of smoke. Rear train T317 did line clear confirmed no signs of smoke along trackside,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+"Counterbound train T440 feedback T242 ""Bside head light not working. T242 TC checked and confirmed""B"" side headlight not working. No circuit breaker tripped",Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+TC reported smoke external indication at Check and,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+1606 TC feedback No.1 LFF noisy,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+(RSD) 3568 & 1567 stuck break when shunt,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+(RSD) 2704 pre charging resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+TC reported brake fault at car 1545. Fault extinguished once train departed station. Train performan ce - OK,BCU,ACU,ACU,ACU,ACU,ACU,ACU
+2679 - LINE FLOW FAN FAULTY,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+Train encountered power fault at car 2505 while departing station. Unable,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+"TC reported TIMS displayed ""BCU WSP Timer 1 Activated Time-out"" at RM2 car. (Fault code 322)fter, TC feedback fault clear",BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported train has an intermittent APS fault,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Pax feedback to Staff (SOM) Rear DT car1 saloon light not working. Staff (CTH) checked and confirme d all saloon light are working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"3533, 2533, 1533 & 3534 mpv fleetwide. T The above locations MPV c/o done and",MPV,MPV,MPV,MPV,MPV,MPV,MPV
+Snap:Hi. The whole train is a sauna,Saloon CCU,ACU,ACU,Saloon Evaporator,Saloon Evaporator,Recharge Freon,Recharge Freon
+"FW 1513, 3513, 3514 MPV C/O",MPV,<invalid>,BCD,MPV,MPV,MPV,MPV
+Train doors at rear M1 car were not proven closed. TC recycled train doors 3 times - ok. Train doorsat rear M1 car were not proven closed. TC recycled train do ors 3 times - ok,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail
+T241 3539 (S) 2540 & 1539 Saloon light each not working BSH SB CE: 2540 B5 and 1539 B10 both light DIM but working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3612 - A1 DOOR UNABLE TO OPEN. TO RECTIF,Door Roller,Cab Door Cable,Cab Door Cable,Door Roller,Door Roller,Door Roller,Door Roller
+"To download ER of 533/534, 1615hrs to 1715hrs and check 3534 for any stuck brake.If Yes, please replace ACU. - OE Tan",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TC reported 3709 internal smoke pre alar,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+Intermittent stuck brake at rear M1 car.Fault self cleared,BCU,ACU,ACU,ACU,ACU,ACU,ACU
+Train doors at rear M1 car were not proven closed. TC recycled train doors once - ok. Staff(BBT) che cked and confirmed Rear M1 B1 door jerky. Staff(BBT) isolate d rear M1 B1 train door at CCK SB in closed position. Train,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+CE: 2512 bogie 2 suspected wheelflat,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"#3529,#1530 MPV",MPV,MPV,MPV,MPV,MPV,MPV,MPV
+TC reported aircon fault at Front M1 car. Unable to,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TIMS showed Fire Internal at car 1551. Staff(CTH) checked and confirmed no signs of fire on exterioror interior of train. Train was escorted to terminal statio n,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+TIMS showed Front DT car air-con compressor fault at unit 1 and unit 2. Unable to,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Train doors at Front DT car were not proven closed. TC recycled train doors three times to clear fau lt. Fault did not recur at subsequent stations,Door Roller,Door Roller,Door Roller,Clean J Rail,Clean J Rail,Clean J Rail,Clean J Rail
+1513 1 saloon light not working.Check an,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+1650-Reported AC2-2 Having Fault.(FC 615,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC after changing end reporteda saloonlight at front DT car wasnot working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3564 Intermittent APS fault indication at front m1(1564) car. CE:1564 having intermittent APS fault,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+Train undershoot platform by 2.97 metresin Auto mode. Proceeded in ATPM mode to the headwall. Train undershoot platform by 2.97 metres in Auto mode. Proceeded in ATPM mode to the headwall,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TIMS showed Smoke Internal at car 3526.Staff(BGS) checked and confirmed no sign of smoke on the ext erior or interior of train. Train was escorted to terminal s tation,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+2551 One saloon light not working. CE,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported TIMS showed BCU release fault at car 2510,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+3534 Bogie 1 & 2 all axles wheel having,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TIMS showed obstacle detected at rear DTcar B3 train doors while the doors were open. Staff (KTB) c hecked and confirmed no abnormalities,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Reported car 3542 having brake fault.To,BCU,ACU,ACU,ACU,ACU,ACU,ACU
+TC reported Front DT car A1 train door did not opened. TC feedback TIMS show the train door was isol ated,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+1677 CE reported No: 2E a/con condensation at ceiling,Aircon Filter,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter,Aircon Filter,Aircon Filter
+"CE: 3527 Bogie No. 1 noisy, suspect flat",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+569/570 1570 A1/68 Wild trigger.Check an,Wheel Profiling,<invalid>,Wild Trigger,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Intermittent BCU fault at RDT car,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported APS fault. Staff(ORC) checked and informed rear M2 car intermittent converter fault. TC confirmed train performance - ok,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC reported after changing end that fireinternal alarm in car 3541. TC,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+Snap: 2533 A1 door left hand side roller kranji towards marsiling door wobbly when open and close,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC after changing end reported one saloon light not working in rear M1 car and two saloon lights (on e near B3 door and one near A1 door) not working in front M2car,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train stopped with stuck brake indication at Rear M2 car after arriving YCK2. STBS operated. Pax dis embarked at AMKMT,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+1501 B6 & 3502 B6 CE reporetd saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+1570 ENCOUNTER BRAKE FAULT DURING DT CHECK,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+CE reported 3550-B2 & 2550 B1 saloon lig,Saloon Light,<invalid>,Saloon Lig,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported TIMS indicated obstacle detected at car 2613 B2 door when train doors open. SM (SBW) che cked and feedback that the affected door could not open full y and was jerky when closing. SM (SBW) isolated the door at,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"3544 Intermittent BCU fault (FC 308, 330, 331)",ACU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported car 3628 'B1' door fault from TIMS. Requested staff(TAP) to check and feedback door dela yed in opening. Staff escorted until AMK MT where train is o n scheduled withdrawal to BSD. TC reported car 3628 'B1' doo,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+CE reported 2564 having intermittent APS,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU
+TC reported after changing end that oneof the saloon light in Rear DT car and one saloon light in t he Front DT car was not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+3541 A2 & 1542 B4 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train jerked when arriving station in AMsince DBG NB.No wheel slip/slide indication or other faul t indications,Charging Resistor,BCU,BCU,BCU,BCU,BCU,BCU
+Front DT car wheel flat,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Snap rep:3531 No a/con,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+#3528 A side Headlight Not working to re,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Snap: 2511 Saloon light faulty CE: 2511-A8 and A9 Saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+653/654 Both DT car air leak underframe,Air Dryer,ACU,ACU,ACU,ACU,Air Dryer,Air Dryer
+SnapRep reported 1570 A/C warm,Saloon CCU,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Snap:Aircon leaking at B4 of 3712. Train,Change Thermostat Setting,Saloon Evaporator,Saloon Evaporator,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+TC reported smoke external Rear M1. Staff (BGB) checked and confirmed no sign of smoke or fire and n o abnormalities. Rear Train 407 and 240 line clear and repor ted no abnormalities,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+TC feedback after changing end that twoof the saloon lights in car 3559 B4 door and car 1559 A2 doo r were not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+CE reported 3502 A10 saloon lighjt not w,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap: 1532 saloon light faulty CE: 1532 B-10 saloon light dim,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+"3565 A1,B2 wheel flange height fail",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported intermittent BCU fault at FDT. Train performance is normal,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported BCU fault at RM1 car 1670. Train stopped while proceeding back to UPD TB1. Fault self cl eared,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"""T335 3570 (E) TIMS showed Smoke Fire Internal at car 3570. Staff (CTH) checked and confirmed no signs of smoke / fire / burning smell on exterior or interior of train. Train was escorted to terminal station. TNM EB. Depot to verify",Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+Train doors at front DT car A2 door wasnot proven closed. TC opened and closed a few times to clearfault,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+2601 A/C 2-2 evaporator unit choke,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator,Saloon Evaporator
+Snap: 3534 reported one saloonlight blown. CE: 3534 B1 saloon light not working,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+TC reported TIMS air-con fault at Rear M1 car. Unable to,Saloon CCU,<invalid>,BCD,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+1544 Bogie 2 wheel flat and no.2 end gan,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Train stopped with stuck brake indication at Front DT car when entering JUR MT. STBS operated. Pax d isembarked at JUR MT. Train routed to OTP siding due to UPD all TBs closed for maintenance work. Staff DVR assisted to i,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+BCU fault at Front M1 car. Fault self cleared,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"#559/560,WHEEL FLANGE HEIGHT FAILED,TO",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"1542 1-1,3542 1-1 coolant presure fault",Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+Counter bound T325 TC feedback T334 bothheadlighs not working. TC stepped out checked and confirmed fault. Fault cleared after TC tripped MLCB,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+"1529 bogie 1 B/S hitting sound coming, likely of WF. CE feedback: 1529 bogie1 having wheel flat noise.0941hrs",Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC reported Front DT-3636 A2 train door unable to open,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC feedback that car 1669 'B' side air-con condenser was leaking during changing end. No air-con fau lt. Car was cooling,Aircon Filter,<invalid>,Condenser,Change Thermostat Setting,Change Thermostat Setting,Aircon Filter,Aircon Filter
+2558 - CAR ENCOUNTER BRAKE FAULT DURING SHUNTING,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+3635 TIMS show door obstacle detected A1,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+TC reported that smoke internal alarm atrear M1car. Staff (YCK) checked and confirmed no abnormalit ies,Clean Internal Smoke Detector,External Smoke Detector,External Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector,Clean Internal Smoke Detector
+"1542 Reported brake Fault,FC 330,331 & 3",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+2642 CE reported both AC running but with Comp Unit2-1 and Coolant Unit 2 Fault. Temp 24.9*C,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+"MPV C/O on 1539,2539,2540,1540,and 3540. To change out",MPV,MPV,MPV,MPV,MPV,MPV,MPV
+"TC reported BCU fault in between stations. hen BCU fault occured, train speed slowed down to 10 kph.When fault self cleared, train speed resumed to normal. Fau lt recurred intermittently. TC reported BCU fault in between",BCU,BCU,BCU,ACU,ACU,ACU,ACU
+TC reported TIMS show front DT car smokeexternal. SM (BBT) and TC checked and feedback no signs of heat and smoke in train,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector,External Smoke Detector
+Snap: Water seepage at 2606,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting,Change Thermostat Setting
+CE reported car,Saloon Light,Headlight,Headlight,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Snap:Warm aircon cabin 3557,Recharge Freon,ACU,ACU,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported TIMS showing air dryer faultat car 3544,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer,Air Dryer
+TC reported intermittent BCU fault at car 3641. ERS-12,BCU,BCU,BCU,ACU,ACU,ACU,ACU
+CE:3545 no1 Line Flow Fan noisy,LFF,LFF,LFF,LFF,LFF,LFF,LFF
+TC reported there is a brake BCU fault at car 1684 every time the train dwell at stations. Fault wil l clear when train depart stations,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+"Intermittent brake fault at Front M2. TCdid brake status check ok, no fault. TC feedback powering w as ok",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+TC reported after,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+CE: 3506 A9 & B7 Saloon light faulty,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+2670 Wild Trigger on B2,Wheel Profiling,<invalid>,Wild Trigger,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+"DT3521 Undershoot ent logs showed BCP abnormalities at 3521. 0820, 1736hrs. s help to check",ACU,ACU,ACU,ACU,ACU,ACU,ACU
+Snap: 1548 B2 door saloon light not work,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train doors not proven closed. Opened and closed few times - no avail. Staff(DBG) assisted to push c lose B3 door to close,Clean J Rail,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snap: 3622 blowing warm air CE checked 3622 Both A/Cs no fault,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon,Recharge Freon
+TC reported propulsion fault at car 1618. Unable to,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor,Charging Resistor
+(OE)Requested to check brake fault on all cars on EMU 647/648,BCU,ACU,ACU,ACU,ACU,ACU,ACU
+1532 B1 & B4 reported door wobble,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+Snaprep: 2520 Pax reported unusual noise heard from carriage. CE feedback 2520 bogie 1 & 2 wheel flat noise,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+TC of T219 reported that counterbound T202 headlight 'A' side was faulty. TC of T202 feedback there was no HLT fault. TC stepped out checked and confirmed 'A' s ide headlight was faulty,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight,Headlight
+Train prep reported car 1557 having conv,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+To perform wheel profilling me : UPD Support Team te of Occurrence : 29/07/2021 st Service Date : NA U / Equipment / Location : 2521 / B1 Wheel uipment Serial No. (if any) : NA scription of fault / cause : Multiple Wheel Flat <(>&<)> pitting asurements (if any) : 130 x 30 mm quired Rectification : Required Wheel Profilling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+Train doors at car 1532 A4door was notproven closed. TC recycled train doors twice - ok. Fault di d not recur at subsequent stations. Train doors at car 1532 A4door was not proven closed. TC recycled train doors twic,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller,Door Roller
+"PM,#2674 NO.3",Charging Resistor,Change Thermostat Setting,Change Thermostat Setting,Saloon Light,Saloon Light,Charging Resistor,Charging Resistor
+3620- A1 WHEEL FLAT 20mm X 30mm,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+CE reported car 1514 B10 saloon light no,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+1504 A7 saloon light not working.Please,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light,Saloon Light
+Train encountered brake fault in car 2613. Fault self cleared,ACU,ACU,ACU,ACU,ACU,ACU,ACU
+2533 A/C 1-2 faulty during DT check,Saloon CCU,ACU,ACU,Saloon CCU,Saloon CCU,Recharge Freon,Recharge Freon
+Snap: 1543 Undercarriage noisy when train is moving CE:1534 Bogie2 emitting wheel defect noise,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling,Wheel Profiling
+#2515 BCP1 at 0.16bar and BCP2 at 0.19ba,ACU,<invalid>,BCP,ACU,ACU,ACU,ACU
+Pax feedback to Staff(CTH) train jerky i,ACU,BCU,BCU,ACU,ACU,ACU,ACU
+Rear M1 air-con compressor #1 fault while doing train prep. Unable to,Recharge Freon,ACU,ACU,Saloon CCU,Saloon CCU,Saloon CCU,Saloon CCU

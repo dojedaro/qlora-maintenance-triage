@@ -7,6 +7,7 @@ import time
 from collections.abc import Sequence
 from dataclasses import asdict, dataclass
 
+import numpy as np
 import torch
 from datasets import Dataset
 from peft import LoraConfig, PeftModel, get_peft_model, prepare_model_for_kbit_training
@@ -36,6 +37,9 @@ class TrainConfig:
     grad_accum: int = 2
     max_length: int = 512
     seed: int = 42
+    # Oversample rare components up to the median component count, so the model is not trained
+    # to always answer the most common repair for an ambiguous symptom.
+    balance: bool = False
 
     def as_dict(self) -> dict:
         return asdict(self)
@@ -109,6 +113,70 @@ def predict(
     return parsed, raw
 
 
+@torch.inference_mode()
+def rank_labels(
+    model: PreTrainedModel,
+    tokenizer: PreTrainedTokenizerBase,
+    conversations: Sequence[list[dict[str, str]]],
+    labels: Sequence[str],
+) -> np.ndarray:
+    """Log-probability that the model answers with each label, for each conversation.
+
+    Returns an array of shape (conversations, labels): the summed log-probability of the label's
+    tokens plus the end-of-turn token, i.e. the probability of generating exactly that answer.
+    Ranking by it gives top-k suggestions and an answer that can never fall outside the list.
+    """
+    answer_ids = [
+        tokenizer(label + tokenizer.eos_token, add_special_tokens=False)["input_ids"]
+        for label in labels
+    ]
+    longest = max(map(len, answer_ids))
+    pad = tokenizer.pad_token_id
+    scores = np.zeros((len(conversations), len(labels)), dtype=np.float32)
+    for row, conversation in enumerate(conversations):
+        prompt = tokenizer.apply_chat_template(
+            conversation, tokenize=False, add_generation_prompt=True
+        )
+        prompt_ids = tokenizer(prompt, add_special_tokens=False)["input_ids"]
+        # One batch per report: the same prompt followed by each candidate answer, right-padded.
+        batch = [prompt_ids + ids + [pad] * (longest - len(ids)) for ids in answer_ids]
+        mask = [
+            [1] * (len(prompt_ids) + len(ids)) + [0] * (longest - len(ids)) for ids in answer_ids
+        ]
+        input_ids = torch.tensor(batch, device=model.device)
+        # Only the logits that predict answer tokens are needed (saves memory on a 150k vocab).
+        logits = model(
+            input_ids=input_ids,
+            attention_mask=torch.tensor(mask, device=model.device),
+            logits_to_keep=longest + 1,
+        ).logits.float()
+        logprobs = torch.log_softmax(logits[:, :-1], dim=-1)  # position j predicts answer token j
+        for col, ids in enumerate(answer_ids):
+            target = torch.tensor(ids, device=model.device)
+            scores[row, col] = logprobs[col, torch.arange(len(ids)), target].sum().item()
+        if (row + 1) % 100 == 0 or row + 1 == len(conversations):
+            print(f"ranked {row + 1}/{len(conversations)}", flush=True)
+    return scores
+
+
+def balance_classes(
+    faults: Sequence[str], components: Sequence[str], seed: int
+) -> tuple[list[str], list[str]]:
+    """Repeat examples of components below the median count until they reach it."""
+    rng = np.random.default_rng(seed)
+    by_class: dict[str, list[str]] = {}
+    for fault, component in zip(faults, components, strict=True):
+        by_class.setdefault(component, []).append(fault)
+    target = int(np.median([len(v) for v in by_class.values()]))
+    out_faults, out_components = list(faults), list(components)
+    for component, items in by_class.items():
+        extra = max(0, target - len(items))
+        for i in rng.choice(len(items), extra, replace=True) if extra else []:
+            out_faults.append(items[i])
+            out_components.append(component)
+    return out_faults, out_components
+
+
 def _warmup_steps(n_examples: int, config: TrainConfig, fraction: float = 0.05) -> int:
     steps_per_epoch = math.ceil(n_examples / (config.batch_size * config.grad_accum))
     return max(1, int(fraction * steps_per_epoch * config.epochs))
@@ -173,6 +241,8 @@ def finetune(
     )
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
 
+    if config.balance:
+        train = balance_classes(*train, seed=config.seed)
     train_ds = _tokenize_examples(*train, labels, tokenizer, config.max_length)
     val_ds = _tokenize_examples(*validation, labels, tokenizer, config.max_length)
     dtype = _compute_dtype()

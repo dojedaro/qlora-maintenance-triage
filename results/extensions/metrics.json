@@ -1,0 +1,76 @@
+{
+  "n_test": 740,
+  "models": {
+    "tfidf_logreg": {
+      "top1_accuracy": 0.8486,
+      "top3_accuracy": 0.9716,
+      "top1_macro_f1": 0.8026
+    },
+    "knn5_vote": {
+      "accuracy": 0.7878,
+      "macro_f1": 0.7342,
+      "invalid_rate": 0.0,
+      "n": 740
+    },
+    "zero_shot_ranked": {
+      "top1_accuracy": 0.5757,
+      "top3_accuracy": 0.7081,
+      "top1_macro_f1": 0.4752
+    },
+    "retrieval_5shot_ranked": {
+      "top1_accuracy": 0.6986,
+      "top3_accuracy": 0.8716,
+      "top1_macro_f1": 0.6569
+    },
+    "retrieval_5shot_generated": {
+      "accuracy": 0.6757,
+      "macro_f1": 0.6414,
+      "invalid_rate": 0.0581,
+      "n": 740
+    },
+    "qlora_seed43_ranked": {
+      "top1_accuracy": 0.8243,
+      "top3_accuracy": 0.9743,
+      "top1_macro_f1": 0.7356
+    },
+    "qlora_seed43_generated": {
+      "accuracy": 0.8162,
+      "macro_f1": 0.7248,
+      "invalid_rate": 0.0,
+      "n": 740
+    },
+    "qlora_balanced_ranked": {
+      "top1_accuracy": 0.8378,
+      "top3_accuracy": 0.9716,
+      "top1_macro_f1": 0.7484
+    },
+    "qlora_balanced_generated": {
+      "accuracy": 0.8338,
+      "macro_f1": 0.749,
+      "invalid_rate": 0.0,
+      "n": 740
+    }
+  },
+  "training_qlora_seed43": {
+    "train_seconds": 1204.2,
+    "peak_gpu_memory_gb": 7.56,
+    "trainable_parameters": 18464768,
+    "train_loss": 0.1677,
+    "validation_loss_per_epoch": [
+      0.1579,
+      0.1278
+    ],
+    "train_examples": 2590
+  },
+  "training_qlora_balanced": {
+    "train_seconds": 1300.2,
+    "peak_gpu_memory_gb": 7.57,
+    "trainable_parameters": 18464768,
+    "train_loss": 0.1717,
+    "validation_loss_per_epoch": [
+      0.1488,
+      0.1221
+    ],
+    "train_examples": 2807
+  }
+}
