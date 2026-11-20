@@ -64,16 +64,18 @@ fall outside the list ([`rank_labels`](src/maintriage/llm.py), tested against a 
 | Qwen2.5-1.5B + QLoRA, rare components oversampled | 83.8% | 97.2% | 0.75 |
 
 - **Top-3 is what a technician would use, and it is right 97% of the time** for both the fine-tuned
-  LLM and TF-IDF, against 83–85% for a single answer.
+  LLM and TF-IDF, against 82–85% for a single answer.
 - **Fine-tuning beats retrieval-augmented prompting by 14 points** (83.8% vs. 69.9% top-1). Showing
   the base model five similar past reports with their repairs helps a lot over zero-shot (+12 points),
   but it does not teach the model this fleet's repair habits the way 2,590 training examples do.
 - **The result reproduces:** a second training seed gives 81.6% generated accuracy (82.4% ranked)
   against 83.0% for the first.
-- **Class balancing barely helps,** which confirms the error analysis. Oversampling rare components
-  to the median count lifts macro-F1 from 0.73–0.74 to 0.75, but BCU stays at 1 of 30 (the model still
-  answers ACU, the usual repair) and Clean J Rail rises to 5 of 20, close to the 4 of 20 the unbalanced
-  second seed already got. The ambiguity is in the labels, not in a training imbalance.
+- **Class balancing barely helps,** consistent with the error analysis. Oversampling rare components
+  to the median count lifts generated macro-F1 from 0.73 (both unbalanced seeds: 0.725–0.731) to 0.75.
+  BCU stays at 0–1 of 30 across all three runs (the model still answers ACU, the usual repair), and
+  Clean J Rail goes from 0 and 4 of 20 (the two unbalanced seeds) to 5 of 20: the swing between seeds
+  is as large as the balancing effect. That is consistent with the ambiguity being in the labels rather
+  than in a training imbalance.
 
 ## Is the task leaking the answer?
 
