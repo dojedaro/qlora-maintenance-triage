@@ -13,13 +13,24 @@ SYSTEM = (
 )
 
 
-def messages(fault: str, labels: Sequence[str]) -> list[dict[str, str]]:
+def messages(
+    fault: str, labels: Sequence[str], examples: Sequence[tuple[str, str]] = ()
+) -> list[dict[str, str]]:
     """Chat messages for one fault report. The label list is always included, so the base model
-    sees the same choices the fine-tuned model was trained on."""
+    sees the same choices the fine-tuned model was trained on.
+
+    ``examples`` (retrieval few-shot): similar past reports with the component that was repaired,
+    shown before the report to classify. Empty for the zero-shot and fine-tuned runs."""
     options = "\n".join(f"- {label}" for label in labels)
+    shots = ""
+    if examples:
+        shots = "Similar past reports and the component that was repaired:\n" + "\n".join(
+            f"- {report} -> {component}" for report, component in examples
+        )
+        shots += "\n\n"
     return [
         {"role": "system", "content": SYSTEM},
-        {"role": "user", "content": f"Components:\n{options}\n\nFault report: {fault}"},
+        {"role": "user", "content": f"Components:\n{options}\n\n{shots}Fault report: {fault}"},
     ]
 
 
