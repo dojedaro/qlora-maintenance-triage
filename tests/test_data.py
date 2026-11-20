@@ -102,3 +102,11 @@ def test_reports_filed_under_conflicting_components_are_dropped():
         ]
     )
     assert build_frame(raw, LABELS)["component"].tolist() == ["Saloon Light"]
+
+
+def test_top_components_breaks_ties_by_name():
+    frame = pd.DataFrame({"fault": [f"r{i}" for i in range(5)], "component": list("AACBB")[::-1]})
+    # A and B tie on 2; C has 1. Both orders of the input must keep A and B.
+    assert set(top_components(frame, 2)["component"]) == {"A", "B"}
+    frame = pd.DataFrame({"fault": [f"r{i}" for i in range(4)], "component": ["Z", "Y", "X", "W"]})
+    assert set(top_components(frame, 2)["component"]) == {"W", "X"}

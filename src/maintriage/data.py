@@ -94,7 +94,11 @@ def build_frame(raw: pd.DataFrame, label_names: list[str], min_chars: int = 12) 
 
 
 def top_components(frame: pd.DataFrame, k: int) -> pd.DataFrame:
-    keep = frame["component"].value_counts().head(k).index
+    """Keep the k most frequent components. Ties are broken by name: pandas versions order tied
+    counts differently, which would otherwise change the label set and the split."""
+    counts = frame["component"].value_counts()
+    ranked = sorted(counts.index, key=lambda name: (-counts[name], name))
+    keep = ranked[:k]
     return frame[frame["component"].isin(keep)].reset_index(drop=True)
 
 
@@ -128,3 +132,43 @@ def load_splits(top_k: int = 20, seed: int = 42) -> Splits:
     label_names = dataset["train"].features["label"].names
     raw = pd.concat([dataset[name].to_pandas() for name in dataset], ignore_index=True)
     return split(top_components(build_frame(raw, label_names), top_k), seed=seed)
+
+
+def audit(raw: pd.DataFrame, label_names: list[str], top_k: int = 20, seed: int = 42) -> dict:
+    """Counts behind the cleaning steps, and how much near-duplicate text survives across splits."""
+    frame = pd.DataFrame(
+        {
+            "fault": raw["text"].map(extract_fault),
+            "component": raw["label"].map(lambda i: label_names[int(i)]),
+        }
+    )
+    usable = frame[frame["fault"].str.len() >= 12].copy()
+    usable["key"] = usable["fault"].map(duplicate_key)
+    labels_per_key = usable.groupby("key")["component"].nunique()
+    conflicting = set(labels_per_key[labels_per_key > 1].index)
+    splits = split(top_components(build_frame(raw, label_names), top_k), seed=seed)
+
+    def prefix(text: str, words: int = 6) -> str:
+        return " ".join(duplicate_key(text).split()[:words])
+
+    train_prefixes = set(splits.train["fault"].map(prefix))
+    shared = splits.test["fault"].map(prefix).isin(train_prefixes)
+    return {
+        "raw_rows": len(raw),
+        "too_short_after_cleaning": int(len(frame) - len(usable)),
+        "rows_in_label_conflicts": int(usable["key"].isin(conflicting).sum()),
+        "unique_reports": int(len(build_frame(raw, label_names))),
+        "in_top_components": int(sum(map(len, (splits.train, splits.validation, splits.test)))),
+        "test_sharing_first_6_words_with_train": round(float(shared.mean()), 4),
+    }
+
+
+if __name__ == "__main__":
+    import json
+
+    from datasets import load_dataset
+
+    dataset = load_dataset(DATASET_ID)
+    names = dataset["train"].features["label"].names
+    raw_rows = pd.concat([dataset[n].to_pandas() for n in dataset], ignore_index=True)
+    print(json.dumps(audit(raw_rows, names), indent=2))

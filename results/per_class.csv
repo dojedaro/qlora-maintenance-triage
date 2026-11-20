@@ -1,0 +1,70 @@
+model,component,precision,recall,f1-score,support
+tfidf_logreg,ACU,0.775,0.908,0.836,76.0
+tfidf_logreg,Air Dryer,0.846,1.0,0.917,11.0
+tfidf_logreg,Aircon Filter,0.455,0.385,0.417,13.0
+tfidf_logreg,BCU,0.688,0.367,0.478,30.0
+tfidf_logreg,Cab Door Cable,1.0,1.0,1.0,14.0
+tfidf_logreg,Change Thermostat Setting,0.611,0.647,0.629,17.0
+tfidf_logreg,Charging Resistor,0.941,0.889,0.914,18.0
+tfidf_logreg,Clean Internal Smoke Detector,0.87,0.909,0.889,22.0
+tfidf_logreg,Clean J Rail,0.4,0.4,0.4,20.0
+tfidf_logreg,Door Roller,0.881,0.865,0.873,111.0
+tfidf_logreg,External Smoke Detector,0.979,0.959,0.969,49.0
+tfidf_logreg,Headlight,1.0,0.977,0.988,43.0
+tfidf_logreg,LFF,1.0,0.923,0.96,13.0
+tfidf_logreg,MPV,0.923,0.857,0.889,14.0
+tfidf_logreg,Recharge Freon,0.667,0.8,0.727,50.0
+tfidf_logreg,Saloon CCU,0.774,0.745,0.759,55.0
+tfidf_logreg,Saloon Evaporator,0.6,0.429,0.5,14.0
+tfidf_logreg,Saloon Light,0.97,0.99,0.98,98.0
+tfidf_logreg,Wheel Profiling,0.968,0.984,0.976,61.0
+tfidf_logreg,Wiper,1.0,0.909,0.952,11.0
+tfidf_logreg,accuracy,0.849,0.849,0.849,0.849
+tfidf_logreg,macro avg,0.817,0.797,0.803,740.0
+tfidf_logreg,weighted avg,0.848,0.849,0.845,740.0
+zero_shot,ACU,0.147,0.342,0.206,76.0
+zero_shot,Air Dryer,1.0,0.818,0.9,11.0
+zero_shot,Aircon Filter,0.0,0.0,0.0,13.0
+zero_shot,BCU,0.286,0.6,0.387,30.0
+zero_shot,Cab Door Cable,0.765,0.929,0.839,14.0
+zero_shot,Change Thermostat Setting,0.0,0.0,0.0,17.0
+zero_shot,Charging Resistor,1.0,0.333,0.5,18.0
+zero_shot,Clean Internal Smoke Detector,0.0,0.0,0.0,22.0
+zero_shot,Clean J Rail,0.0,0.0,0.0,20.0
+zero_shot,Door Roller,0.832,0.757,0.792,111.0
+zero_shot,External Smoke Detector,0.653,1.0,0.79,49.0
+zero_shot,Headlight,0.976,0.93,0.952,43.0
+zero_shot,LFF,1.0,0.615,0.762,13.0
+zero_shot,MPV,1.0,0.429,0.6,14.0
+zero_shot,Recharge Freon,0.0,0.0,0.0,50.0
+zero_shot,Saloon CCU,0.154,0.036,0.059,55.0
+zero_shot,Saloon Evaporator,0.5,0.143,0.222,14.0
+zero_shot,Saloon Light,0.989,0.888,0.935,98.0
+zero_shot,Wheel Profiling,0.92,0.377,0.535,61.0
+zero_shot,Wiper,0.769,0.909,0.833,11.0
+zero_shot,micro avg,0.593,0.518,0.553,740.0
+zero_shot,macro avg,0.549,0.455,0.466,740.0
+zero_shot,weighted avg,0.581,0.518,0.518,740.0
+qlora,ACU,0.712,0.974,0.822,76.0
+qlora,Air Dryer,0.769,0.909,0.833,11.0
+qlora,Aircon Filter,0.444,0.308,0.364,13.0
+qlora,BCU,0.0,0.0,0.0,30.0
+qlora,Cab Door Cable,0.933,1.0,0.966,14.0
+qlora,Change Thermostat Setting,0.583,0.824,0.683,17.0
+qlora,Charging Resistor,0.882,0.833,0.857,18.0
+qlora,Clean Internal Smoke Detector,0.84,0.955,0.894,22.0
+qlora,Clean J Rail,0.0,0.0,0.0,20.0
+qlora,Door Roller,0.829,0.964,0.892,111.0
+qlora,External Smoke Detector,0.978,0.918,0.947,49.0
+qlora,Headlight,0.976,0.93,0.952,43.0
+qlora,LFF,1.0,0.923,0.96,13.0
+qlora,MPV,1.0,0.857,0.923,14.0
+qlora,Recharge Freon,0.662,0.86,0.748,50.0
+qlora,Saloon CCU,0.735,0.655,0.692,55.0
+qlora,Saloon Evaporator,0.4,0.143,0.211,14.0
+qlora,Saloon Light,1.0,0.98,0.99,98.0
+qlora,Wheel Profiling,0.908,0.967,0.937,61.0
+qlora,Wiper,1.0,0.909,0.952,11.0
+qlora,micro avg,0.831,0.83,0.83,740.0
+qlora,macro avg,0.733,0.745,0.731,740.0
+qlora,weighted avg,0.781,0.83,0.799,740.0

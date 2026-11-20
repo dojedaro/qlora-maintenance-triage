@@ -1,0 +1,68 @@
+{
+  "n": 740,
+  "bootstrap": {
+    "tfidf_logreg": {
+      "accuracy_95ci": [
+        0.8216,
+        0.8757
+      ],
+      "macro_f1_95ci": [
+        0.7649,
+        0.8329
+      ]
+    },
+    "zero_shot": {
+      "accuracy_95ci": [
+        0.4824,
+        0.5541
+      ],
+      "macro_f1_95ci": [
+        0.4277,
+        0.4936
+      ]
+    },
+    "qlora": {
+      "accuracy_95ci": [
+        0.8027,
+        0.8568
+      ],
+      "macro_f1_95ci": [
+        0.6972,
+        0.7584
+      ]
+    }
+  },
+  "mcnemar_qlora_vs_tfidf": {
+    "only_first_right": 34,
+    "only_second_right": 48,
+    "p_value": 0.1507
+  },
+  "macro_f1_qlora_minus_tfidf": {
+    "difference": -0.0715,
+    "ci95": [
+      -0.1075,
+      -0.0344
+    ]
+  },
+  "qlora_tfidf_answers_differ": 95,
+  "zero_shot_strict_accuracy": 0.5135,
+  "qlora_strict_accuracy": 0.8297,
+  "leakage": {
+    "share_mentioning_own_component": 0.2243,
+    "keyword_baseline_accuracy": 0.3649,
+    "accuracy_on_reports_not_naming_component": {
+      "tfidf_logreg": 0.8223,
+      "zero_shot": 0.385,
+      "qlora": 0.8118
+    },
+    "n_not_naming_component": 574
+  },
+  "near_duplicates": {
+    "n_novel_opening": 553,
+    "accuracy_on_novel_opening": {
+      "tfidf_logreg": 0.8445,
+      "zero_shot": 0.4882,
+      "qlora": 0.8156
+    }
+  }
+}

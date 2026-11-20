@@ -1,0 +1,8 @@
+{
+  "raw_rows": 10785,
+  "too_short_after_cleaning": 618,
+  "rows_in_label_conflicts": 2521,
+  "unique_reports": 6254,
+  "in_top_components": 3700,
+  "test_sharing_first_6_words_with_train": 0.2527
+}
