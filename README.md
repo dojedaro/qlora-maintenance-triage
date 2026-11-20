@@ -47,6 +47,34 @@ learns the most common repair for each symptom; the class-weighted baseline hedg
 ones. In production this argues for showing a technician the top 2–3 candidates rather than one
 answer.
 
+## Follow-up: top-3 suggestions, retrieval vs. fine-tuning, class balance, a second seed
+
+Same 740 test reports ([`extensions.py`](src/maintriage/extensions.py), results in
+[`results/extensions/`](results/extensions/)). LLMs are scored here by **ranking** all 20 components by
+the probability of generating each name, which gives top-k suggestions and an answer that can never
+fall outside the list ([`rank_labels`](src/maintriage/llm.py), tested against a full forward pass).
+
+| Approach | Top-1 | Top-3 | Macro-F1 |
+|---|---|---|---|
+| TF-IDF + logistic regression | 84.9% | 97.2% | 0.80 |
+| Vote of the 5 most similar past reports | 78.8% | – | 0.73 |
+| Qwen2.5-1.5B zero-shot | 57.6% | 70.8% | 0.48 |
+| Qwen2.5-1.5B + 5 retrieved past reports in the prompt | 69.9% | 87.2% | 0.66 |
+| Qwen2.5-1.5B + QLoRA, second seed (43) | 82.4% | **97.4%** | 0.74 |
+| Qwen2.5-1.5B + QLoRA, rare components oversampled | 83.8% | 97.2% | 0.75 |
+
+- **Top-3 is what a technician would use, and it is right 97% of the time** for both the fine-tuned
+  LLM and TF-IDF, against 83–85% for a single answer.
+- **Fine-tuning beats retrieval-augmented prompting by 14 points** (83.8% vs. 69.9% top-1). Showing
+  the base model five similar past reports with their repairs helps a lot over zero-shot (+12 points),
+  but it does not teach the model this fleet's repair habits the way 2,590 training examples do.
+- **The result reproduces:** a second training seed gives 81.6% generated accuracy (82.4% ranked)
+  against 83.0% for the first.
+- **Class balancing barely helps,** which confirms the error analysis. Oversampling rare components
+  to the median count lifts macro-F1 from 0.73–0.74 to 0.75, but BCU stays at 1 of 30 (the model still
+  answers ACU, the usual repair) and Clean J Rail rises to 5 of 20, close to the 4 of 20 the unbalanced
+  second seed already got. The ambiguity is in the labels, not in a training imbalance.
+
 ## Is the task leaking the answer?
 
 The raw logs concatenate the fault report with the corrective action, which usually names the
@@ -114,6 +142,9 @@ python -m maintriage.analysis --results results   # CIs, McNemar, paired macro-F
 python -m maintriage.report --results results     # charts
 ```
 
+The follow-up experiments run with `python -m maintriage.extensions --out results/extensions`
+(GPU, about two hours on a T4; notebook: `notebooks/run_extensions.ipynb`).
+
 `results/` holds the committed run: metrics with the exact library versions, per-class scores,
 every test prediction with the raw model output, the analysis and the data audit.
 
@@ -126,14 +157,13 @@ Dependencies are lower-bounded in `pyproject.toml`; the versions above are the t
 
 ## Limitations and next steps
 
-- **One seed, one model size.** The bootstrap intervals cover test-set sampling, not training
-  variance. Next: 3 seeds, and Qwen2.5-3B/7B to see whether scale closes the macro-F1 gap.
+- **Two seeds, one model size.** Next: Qwen2.5-3B/7B to see whether scale closes the macro-F1 gap.
 - **Closed label set.** Only the 20 most frequent components (59% of unique reports) are in scope, and
-  there is no "other" answer. A production version needs an abstain option.
-- **Class imbalance is unaddressed for the LLM.** The baseline uses balanced class weights; the LLM
-  does not. Weighted loss or oversampling rare components is the obvious next experiment.
-- **Retrieval baseline not yet run.** A few-shot prompt with the most similar past reports
-  (retrieval over the training set) would show whether fine-tuning beats retrieval for this task.
+  there is no "other" answer. A production version needs an abstain option, e.g. when the top
+  component's ranked probability is low.
+- **The labels are repairs, not causes.** Some symptoms map to several valid repairs; neither class
+  balancing nor more examples of the same reports resolves that. The repair notes cut from the input,
+  or equipment sensor data, are what could.
 
 ## Data
 
