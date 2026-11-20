@@ -94,7 +94,11 @@ def build_frame(raw: pd.DataFrame, label_names: list[str], min_chars: int = 12) 
 
 
 def top_components(frame: pd.DataFrame, k: int) -> pd.DataFrame:
-    keep = frame["component"].value_counts().head(k).index
+    """Keep the k most frequent components. Ties are broken by name: pandas versions order tied
+    counts differently, which would otherwise change the label set and the split."""
+    counts = frame["component"].value_counts()
+    ranked = sorted(counts.index, key=lambda name: (-counts[name], name))
+    keep = ranked[:k]
     return frame[frame["component"].isin(keep)].reset_index(drop=True)
 
 

@@ -1,0 +1,90 @@
+{
+  "dataset": {
+    "components": 20,
+    "train": 2590,
+    "validation": 370,
+    "test": 740,
+    "test_class_counts": {
+      "Door Roller": 111,
+      "Saloon Light": 98,
+      "ACU": 76,
+      "Wheel Profiling": 61,
+      "Saloon CCU": 55,
+      "Recharge Freon": 50,
+      "External Smoke Detector": 49,
+      "Headlight": 43,
+      "BCU": 30,
+      "Clean Internal Smoke Detector": 22,
+      "Clean J Rail": 20,
+      "Charging Resistor": 18,
+      "Change Thermostat Setting": 17,
+      "Saloon Evaporator": 14,
+      "Cab Door Cable": 14,
+      "MPV": 14,
+      "Aircon Filter": 13,
+      "LFF": 13,
+      "Wiper": 11,
+      "Air Dryer": 11
+    }
+  },
+  "models": {
+    "majority_class": {
+      "accuracy": 0.15,
+      "macro_f1": 0.013,
+      "invalid_rate": 0.0,
+      "n": 740
+    },
+    "tfidf_logreg": {
+      "accuracy": 0.8486,
+      "macro_f1": 0.8026,
+      "invalid_rate": 0.0,
+      "n": 740
+    },
+    "zero_shot_qwen": {
+      "accuracy": 0.5176,
+      "macro_f1": 0.4657,
+      "invalid_rate": 0.127,
+      "n": 740
+    },
+    "qlora_qwen": {
+      "accuracy": 0.8297,
+      "macro_f1": 0.7311,
+      "invalid_rate": 0.0014,
+      "n": 740
+    }
+  },
+  "train_config": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "learning_rate": 0.0002,
+    "epochs": 2,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "max_length": 512,
+    "seed": 42
+  },
+  "training": {
+    "train_seconds": 1207.0,
+    "peak_gpu_memory_gb": 7.56,
+    "trainable_parameters": 18464768,
+    "train_loss": 0.1709,
+    "validation_loss_per_epoch": [
+      0.1478,
+      0.1308
+    ],
+    "train_examples": 2590
+  },
+  "environment": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "datasets": "4.8.5",
+    "scikit-learn": "1.6.1",
+    "gpu": "Tesla T4"
+  }
+}
