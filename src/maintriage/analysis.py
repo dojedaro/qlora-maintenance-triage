@@ -44,6 +44,27 @@ def bootstrap_ci(
     }
 
 
+def paired_macro_f1_difference(
+    gold: np.ndarray, a: np.ndarray, b: np.ndarray, rounds: int = 2000, seed: int = 0
+) -> dict[str, float]:
+    """Macro-F1 of ``a`` minus ``b``, with a 95% interval from resampling the same reports for
+    both models (paired), which is tighter and more honest than comparing two separate intervals."""
+    rng = np.random.default_rng(seed)
+    labels = np.unique(gold)
+
+    def macro(g: np.ndarray, p: np.ndarray) -> float:
+        return f1_score(g, p, labels=labels, average="macro", zero_division=0)
+
+    diffs = []
+    for _ in range(rounds):
+        idx = rng.integers(0, len(gold), len(gold))
+        diffs.append(macro(gold[idx], a[idx]) - macro(gold[idx], b[idx]))
+    return {
+        "difference": round(float(macro(gold, a) - macro(gold, b)), 4),
+        "ci95": [round(float(np.percentile(diffs, q)), 4) for q in (2.5, 97.5)],
+    }
+
+
 def mcnemar(gold: np.ndarray, a: np.ndarray, b: np.ndarray) -> dict[str, float]:
     """Exact McNemar test on the reports where exactly one of the two models is right."""
     only_a = int(np.sum((a == gold) & (b != gold)))
@@ -71,6 +92,30 @@ def keyword_baseline(faults: pd.Series, labels: list[str], fallback: str) -> np.
     return faults.map(pick).to_numpy()
 
 
+def near_duplicate_check(predictions: pd.DataFrame, train_faults: pd.Series) -> dict:
+    """Accuracy on test reports whose first six words (numbers ignored) match no training report.
+
+    Templated reports ("TC reported TIMS showed ...") share openings legitimately; if accuracy
+    held up only on the shared ones, the models would be matching templates, not reading faults.
+    """
+    from maintriage.data import duplicate_key
+
+    def prefix(text: str) -> str:
+        return " ".join(duplicate_key(text).split()[:6])
+
+    seen = set(train_faults.map(prefix))
+    novel = ~predictions["fault"].map(prefix).isin(seen).to_numpy()
+    gold = predictions["gold"].to_numpy()
+    return {
+        "n_novel_opening": int(novel.sum()),
+        "accuracy_on_novel_opening": {
+            m: round(float(np.mean(predictions[m].to_numpy()[novel] == gold[novel])), 4)
+            for m in MODELS
+            if m in predictions
+        },
+    }
+
+
 def analyze(predictions: pd.DataFrame) -> dict:
     gold = predictions["gold"].to_numpy()
     labels = sorted(set(gold))
@@ -82,6 +127,12 @@ def analyze(predictions: pd.DataFrame) -> dict:
     if "qlora" in predictions:
         result["mcnemar_qlora_vs_tfidf"] = mcnemar(
             gold, predictions["qlora"].to_numpy(), predictions["tfidf_logreg"].to_numpy()
+        )
+        result["macro_f1_qlora_minus_tfidf"] = paired_macro_f1_difference(
+            gold, predictions["qlora"].to_numpy(), predictions["tfidf_logreg"].to_numpy()
+        )
+        result["qlora_tfidf_answers_differ"] = int(
+            (predictions["qlora"] != predictions["tfidf_logreg"]).sum()
         )
     for model in ("zero_shot", "qlora"):
         raw = f"{model}_raw"
@@ -111,9 +162,19 @@ def analyze(predictions: pd.DataFrame) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("--results", type=Path, default=Path("results"))
+    parser.add_argument(
+        "--skip-near-duplicates", action="store_true", help="skip the check that downloads the data"
+    )
     args = parser.parse_args()
     predictions = pd.read_csv(args.results / "test_predictions.csv")
     result = analyze(predictions)
+    if not args.skip_near_duplicates:
+        from maintriage.data import load_splits
+
+        splits = load_splits()
+        if splits.test["fault"].tolist() != predictions["fault"].tolist():
+            raise SystemExit("the current split does not match the predictions file")
+        result["near_duplicates"] = near_duplicate_check(predictions, splits.train["fault"])
     (args.results / "analysis.json").write_text(json.dumps(result, indent=2))
     print(json.dumps(result, indent=2))
 

@@ -37,6 +37,14 @@
     "only_second_right": 48,
     "p_value": 0.1507
   },
+  "macro_f1_qlora_minus_tfidf": {
+    "difference": -0.0715,
+    "ci95": [
+      -0.1075,
+      -0.0344
+    ]
+  },
+  "qlora_tfidf_answers_differ": 95,
   "zero_shot_strict_accuracy": 0.5135,
   "qlora_strict_accuracy": 0.8297,
   "leakage": {
@@ -48,5 +56,13 @@
       "qlora": 0.8118
     },
     "n_not_naming_component": 574
+  },
+  "near_duplicates": {
+    "n_novel_opening": 553,
+    "accuracy_on_novel_opening": {
+      "tfidf_logreg": 0.8445,
+      "zero_shot": 0.4882,
+      "qlora": 0.8156
+    }
   }
 }
