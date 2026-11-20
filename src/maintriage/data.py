@@ -44,6 +44,16 @@ def _normalize(text: str) -> str:
     return re.sub(r"\W+", " ", text.lower()).strip()
 
 
+def duplicate_key(text: str) -> str:
+    """Key under which two reports count as the same: case, punctuation and numbers ignored.
+
+    Many reports are templates that differ only in the train or car number ("TC reported 3709
+    internal smoke pre alarm"); treating those as one report keeps templates from landing on both
+    sides of the split.
+    """
+    return re.sub(r"\s+", " ", re.sub(r"\d+", " ", _normalize(text))).strip()
+
+
 def extract_fault(raw: str) -> str:
     """Return only the fault report from a raw log entry, with the corrective action removed.
 
@@ -71,11 +81,15 @@ def build_frame(raw: pd.DataFrame, label_names: list[str], min_chars: int = 12) 
             "component": raw["label"].map(lambda i: label_names[int(i)]),
         }
     )
-    frame = frame[frame["fault"].str.len() >= min_chars]
-    # The published train and test splits share hundreds of identical rows. Deduplicating on the
-    # normalized fault text before splitting keeps any report from appearing on both sides.
-    key = frame["fault"].map(_normalize)
-    frame = frame.loc[~key.duplicated()].reset_index(drop=True)
+    frame = frame[frame["fault"].str.len() >= min_chars].copy()
+    frame["key"] = frame["fault"].map(duplicate_key)
+    # Identical reports filed under different components cannot all be right; drop them rather
+    # than keep whichever came first. Then keep one row per report so none can appear in both
+    # train and test (the published splits share hundreds of rows).
+    labels_per_key = frame.groupby("key")["component"].nunique()
+    conflicting = labels_per_key[labels_per_key > 1].index
+    frame = frame[~frame["key"].isin(conflicting)]
+    frame = frame.drop_duplicates("key").drop(columns="key").reset_index(drop=True)
     return frame
 
 

@@ -81,3 +81,24 @@ def test_split_is_disjoint_stratified_and_deterministic():
     assert all(set(p["component"]) == {"A", "B", "C", "D"} for p in parts)
     assert first.test["fault"].tolist() == second.test["fault"].tolist()
     assert first.labels == ["A", "B", "C", "D"]
+
+
+def test_reports_differing_only_in_car_numbers_are_duplicates():
+    raw = _raw(
+        [
+            ("TC reported 3709 internal smoke pre alarm ~~~~~ x", 0),
+            ("TC reported 3512 internal smoke pre alarm ~~~~~ y", 0),
+        ]
+    )
+    assert len(build_frame(raw, LABELS)) == 1
+
+
+def test_reports_filed_under_conflicting_components_are_dropped():
+    raw = _raw(
+        [
+            ("Door B1 will not close ~~~~~ x", 2),
+            ("Door B1 will not close ~~~~~ y", 0),
+            ("Saloon light blown at car 3540 ~~~~~ z", 1),
+        ]
+    )
+    assert build_frame(raw, LABELS)["component"].tolist() == ["Saloon Light"]

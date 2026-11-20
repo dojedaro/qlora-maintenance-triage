@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 import time
 from collections.abc import Sequence
 from dataclasses import asdict, dataclass
@@ -41,8 +42,10 @@ class TrainConfig:
 
 
 def _compute_dtype() -> torch.dtype:
-    # T4 GPUs (free Colab) have no bfloat16 support; newer GPUs do and train more stably with it.
-    return torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+    # bfloat16 needs compute capability 8.0+ (A100, L4, H100). A free-Colab T4 is 7.5: there
+    # torch may report bf16 as "supported" through slow emulation, so check the hardware instead.
+    major, _ = torch.cuda.get_device_capability()
+    return torch.bfloat16 if major >= 8 else torch.float16
 
 
 def load_tokenizer(model_id: str) -> PreTrainedTokenizerBase:
@@ -100,7 +103,15 @@ def predict(
         )
         raw.extend(answers)
         parsed.extend(parse_answer(answer, labels) for answer in answers)
+        done = min(start + batch_size, len(faults))
+        if done % (batch_size * 10) == 0 or done == len(faults):
+            print(f"predicted {done}/{len(faults)}", flush=True)
     return parsed, raw
+
+
+def _warmup_steps(n_examples: int, config: TrainConfig, fraction: float = 0.05) -> int:
+    steps_per_epoch = math.ceil(n_examples / (config.batch_size * config.grad_accum))
+    return max(1, int(fraction * steps_per_epoch * config.epochs))
 
 
 def _tokenize_examples(
@@ -123,7 +134,11 @@ def _tokenize_examples(
         answer_ids = tokenizer(component + tokenizer.eos_token, add_special_tokens=False)[
             "input_ids"
         ]
-        prompt_ids = prompt_ids[: max_length - len(answer_ids)]
+        if len(prompt_ids) + len(answer_ids) > max_length:
+            # Truncating would cut the assistant header and teach the wrong format.
+            raise ValueError(
+                f"example of {len(prompt_ids) + len(answer_ids)} tokens > {max_length}"
+            )
         ids = prompt_ids + answer_ids
         rows["input_ids"].append(ids)
         rows["attention_mask"].append([1] * len(ids))
@@ -144,7 +159,7 @@ def finetune(
     """
     torch.manual_seed(config.seed)
     tokenizer = load_tokenizer(config.model_id)
-    tokenizer.padding_side = "right"  # right padding for training; generation switches back
+    tokenizer.padding_side = "right"  # this tokenizer is only used for training batches
     model = prepare_model_for_kbit_training(load_model(config.model_id))
     model = get_peft_model(
         model,
@@ -169,7 +184,8 @@ def finetune(
         gradient_accumulation_steps=config.grad_accum,
         learning_rate=config.learning_rate,
         lr_scheduler_type="cosine",
-        warmup_ratio=0.05,
+        # warmup_ratio was removed in transformers 5; an explicit step count works everywhere.
+        warmup_steps=_warmup_steps(len(train_ds), config),
         logging_steps=20,
         eval_strategy="epoch",
         save_strategy="no",

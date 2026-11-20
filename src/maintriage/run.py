@@ -103,20 +103,25 @@ def run(out: Path, cpu_only: bool, top_k: int, seed: int, epochs: int) -> dict:
             splits.labels,
             adapter_dir,
         )
+        gc.collect()
+        torch.cuda.empty_cache()
         tuned = load_model(config.model_id, adapter_dir)
         predictions["qlora"], predictions["qlora_raw"] = predict(
             tuned, tokenizer, faults, splits.labels
         )
         results["models"]["qlora_qwen"] = score(gold, predictions["qlora"])
 
-    best = max(
-        (name for name in predictions.columns if name in {"tfidf_logreg", "zero_shot", "qlora"}),
-        key=lambda name: score(gold, predictions[name])["macro_f1"],
-    )
-    per_class = classification_report(
-        gold, predictions[best], labels=splits.labels, output_dict=True, zero_division=0
-    )
-    pd.DataFrame(per_class).T.round(3).to_csv(out / f"per_class_{best}.csv")
+    # Per-class scores for every model, so none is singled out by its test score.
+    reports = {
+        name: pd.DataFrame(
+            classification_report(
+                gold, predictions[name], labels=splits.labels, output_dict=True, zero_division=0
+            )
+        ).T
+        for name in ("tfidf_logreg", "zero_shot", "qlora")
+        if name in predictions
+    }
+    pd.concat(reports, names=["model", "component"]).round(3).to_csv(out / "per_class.csv")
     predictions.to_csv(out / "test_predictions.csv", index=False)
     results["environment"] = _environment()
     (out / "metrics.json").write_text(json.dumps(results, indent=2))
