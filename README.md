@@ -65,7 +65,8 @@ fall outside the list ([`rank_labels`](src/maintriage/llm.py), tested against a 
 
 - **Top-3 is what a technician would use, and it is right 97% of the time** for both the fine-tuned
   LLM and TF-IDF, against 82–85% for a single answer.
-- **Fine-tuning beats retrieval-augmented prompting by 14 points** (83.8% vs. 69.9% top-1). Showing
+- **Fine-tuning beats retrieval-augmented prompting by 12–14 points** (82.4–83.8% vs. 69.9% top-1,
+  ranked, across both new fine-tuned runs). Showing
   the base model five similar past reports with their repairs helps a lot over zero-shot (+12 points),
   but it does not teach the model this fleet's repair habits the way 2,590 training examples do.
 - **The result reproduces:** a second training seed gives 81.6% generated accuracy (82.4% ranked)
